@@ -1,0 +1,34 @@
+---
+layout: /layouts/blog.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter: posts
+permalink: /ze-zivota/{{ tag }}/
+---
+ 
+{% include 'partials/tags-blog.njk' %}
+
+<div class="blog__grid">
+
+{% set taglist = collections[ tag ] %} 
+{% for post in taglist | reverse %}
+<div class="blog__post">
+    <a href="{{ post.url }}">
+      <img
+        class="blog__photo"
+        src="/images/{{ post.data.photo }}"
+        alt="{{ post.data.alt }}"
+      />
+    </a>
+    <p class="blog__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
+    <a href="{{ post.url }}">
+      <h2 class="blog__title">{{ post.data.title }}</h2>
+    </a>
+    <p class="blog__perex">{{ post.data.perex }}</p>
+    <a class="blog__link" href="{{ post.url }}">---Přečíst</a>
+  </div>
+{% endfor %}
+
+</div>

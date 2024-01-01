@@ -1,0 +1,119 @@
+@use '../utils/var';
+
+.footer{
+    padding-bottom: 2rem;
+    grid-column: 2/7;
+    
+    @media screen and (min-width: 680px) {
+       padding-top: 6rem;
+        
+    }
+
+    &__logo{
+        display: none;
+
+        @media screen and (min-width: 680px){
+            display: inherit;
+            margin: 0;
+           // padding-bottom: 8rem;
+            color: white;
+            font-family: var.$font-logo;
+            font-size: 5rem;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+
+    &__content{
+
+        @media screen and (min-width: 680px){
+        max-width: 1400px;
+        padding-top: 3rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.544);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.544);
+        margin: auto;
+        }
+    }
+
+    &__blank{
+        grid-column: 4/6;
+    }
+
+    &__topics{
+        margin-bottom: 4rem;
+    }
+
+    &__title{
+        margin: 0;
+        padding-bottom: 2rem;
+        color: white;
+        font-family: var.$font-special;
+        font-weight: 600;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: var.$color-accent;
+        }
+
+        @media screen and (min-width: 680px){
+            font-size: 1.5rem;
+        }
+    }
+
+    &__link{
+        display: block;
+        line-height: 2;
+        text-decoration: none;
+        color: white;
+        font-family: var.$font-special;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: 0;
+
+        &:hover{
+            color: var.$color-accent;
+        }
+    }
+
+    &__contact{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1400px;
+        margin: auto;
+        padding-top: 1rem;
+
+        &--hp{
+            margin: 0;
+            padding: 0 2rem;
+            max-width: none;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+
+    &__author{
+        color: rgba(255, 255, 255, 0.544);
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: var.$font-text;
+        &:hover{
+            color: var.$color-accent;
+            cursor: pointer;
+        }
+    }
+
+    &__socials{
+        color: rgba(255, 255, 255, 0.544);
+        font-family: var.$font-special;
+        font-weight: 300;
+        font-size: 1.5rem;
+        &:hover{
+            color: var.$color-accent;
+            cursor: pointer;
+        }
+        @media screen and (min-width: 680px){
+            padding-left: 2rem;
+        }
+    }
+}

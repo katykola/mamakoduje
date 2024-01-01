@@ -1,0 +1,11 @@
+<nav class="menu">
+  <input type="checkbox" class="menu__checkbox" id="menu-checkbox" />
+  <label for="menu-checkbox" class="menu__toggler">☰</label>
+  <div class="menu__list">
+    <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }}" href="/">Home</a>
+    <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }} " href="/o-me/">O mě</a>
+    <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }}" href="/recenze-kurzu/">Recenze kurzů</a>
+    <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }}" href="/ze-zivota/">Ze života</a>
+    <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }}" href="/kontakt/">Kontakt</a>
+  </div>
+</nav>

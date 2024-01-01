@@ -1,0 +1,19 @@
+<div class="sidebartitle">
+  <p class="sidebartitle__name">Nejnovější</p>
+</div>
+
+{% for post in collections.posts | reverse | limit(2) %}
+<div class="sidebar__post">
+  <a href="{{ post.url }}">
+    <img
+      class="sidebar__photo"
+      src="/images/{{ post.data.photo }}"
+      alt="{{ post.data.alt }}"
+    />
+  </a>
+  <p class="sidebar__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
+  <h2 class="sidebar__title">{{ post.data.title }}</h2>
+  <a class="sidebar__link" href="{{ post.url }}">---Přečíst</a>
+  {% endfor %}
+</div>
+{% include 'partials/newsletter-sidebar.njk' %}

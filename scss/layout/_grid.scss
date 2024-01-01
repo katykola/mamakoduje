@@ -1,0 +1,40 @@
+@use '../utils/var';
+
+//Grid
+
+.grid{
+    
+    @media screen and (min-width: 680px){
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 6rem;
+    }
+}
+
+// Wrapper
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    @media screen and (max-width: 1300px){ 
+        padding: 0 4rem;
+    }
+}
+
+// Background
+
+.background{
+
+    &--primary{
+        background-color: var.$color-primary;
+    }
+
+    &--secondary{
+        background-color: var.$color-secondary;
+    }
+
+    &--dark{
+        background-color: var.$color-dark;
+    }
+
+}

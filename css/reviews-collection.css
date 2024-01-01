@@ -1,0 +1,41 @@
+.collection {
+  grid-column: 1/6;
+  padding-top: 8rem;
+}
+
+.review__post {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 680px) {
+  .review__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+}
+.review__photo {
+  width: 100%;
+}
+@media screen and (min-width: 680px) {
+  .review__photo {
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.review__date {
+  color: #FF6699;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.review__title {
+  font-size: 2rem;
+}
+.review__perex {
+  font-size: 1.5rem;
+}
+.review__link {
+  color: #888;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=reviews-collection.css.map */

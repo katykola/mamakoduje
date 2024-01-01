@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&family=Inria+Sans:wght@300;400;700&family=Inria+Serif:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mama koduje</title>
+  </head>
+  <body>
+    <!--Hero-->
+    <div class="background--opacity">
+      <div class="hero">
+        <div class="hero__filter">
+          <div class="hero__flex wrapper">
+            {% include 'partials/header-hp.njk' %}
+            <!--Claim-->
+            <div class="claim">
+              <h2 class="claim__title">Jde to i s dítětem v náručí</h2>
+              <p class="claim__text">
+                Matky kodérky mají jedinečnou schopnost spojit svůj technický
+                talent s matčinou láskou. Jak překonat chybu v kódu.
+              </p>
+              <div class="claim__buttons">
+                <a class="btn btn--block btn--primary" href="">Recenze kurzů</a>
+                <a class="btn btn--block btn--secondary" href="">Ze života</a>
+              </div>
+            </div>
+          </div>
+          <!--Footer-->
+          <div class="footer__contact footer__contact--hp">
+            <a class="footer__author">@ 2023 Katykola</a>
+            <div class="footer__sectionsocials">
+              <a class="footer__socials">Instagram</a>
+              <a
+                class="footer__socials"
+                href="https://www.linkedin.com/in/katerinakolar/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a class="footer__socials">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

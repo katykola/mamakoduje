@@ -1,0 +1,15 @@
+---
+layout: layouts/main.njk
+---
+
+<div class="background">
+  <div class="wrapper">
+    <div class="grid">
+      <main class="reviews">
+        {{ content | safe }}
+      </main>
+
+      <aside class="sidebar">{% include 'partials/sidebar.njk' %}</aside>
+    </div>
+  </div>
+</div>

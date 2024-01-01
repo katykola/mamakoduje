@@ -1,0 +1,154 @@
+@use '../utils/var';
+
+// About
+
+.aboutme{
+    &__photo{
+        width: 100%;
+    }
+    &__intro{
+        @media screen and (min-width: 680px){
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    &__introtext{
+        @media screen and (min-width: 680px){
+            grid-column: 1/3;
+            margin-right: 4rem;
+            margin-top: 0;
+        }
+    }
+    &--citation{
+        grid-column: 3/4;
+    }
+
+    &__titlesmall{
+        padding-top: 2rem;
+    }
+
+    &__desc{
+        padding-bottom: 4rem;
+    }
+
+    @media screen and (min-width: 680px){
+        grid-column: 1 / 6;
+        padding-top: 4rem;
+    }
+}
+
+// Timeline
+
+.timeline{
+    padding: 0 6rem;
+    
+    @media screen and (min-width: 680px){
+        grid-column: 1 / 6;
+        padding: 0;
+        padding-top: 6rem;
+    }
+
+    &__background{
+        background-color:#EFEFEF;
+        padding: 0 8rem;
+    }
+
+    &__section{
+        padding-top: 6rem;
+
+        @media screen and (min-width: 680px){
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__section:last-of-type{
+        @media screen and (min-width: 680px){
+            padding-bottom: 10rem;
+        }
+    }
+}
+
+.timelinedate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    &__months,
+    &__age{
+        color: var.$color-accent;
+        font-family: var.$font-special;
+        font-weight: 600;
+        margin: 0;
+        @media screen and (min-width: 680px){
+            margin-top: 5px;
+        }
+    }
+    &__months{
+        justify-self: end;
+    }
+    &__age{
+        justify-self: start;
+    }
+    &__circle{
+        fill: var.$color-accent;
+    }
+    @media screen and (min-width: 680px){
+        grid-column: 2/3;
+        order: 2;
+    }
+}
+
+.timelinecourse{
+    &__title{
+        font-family: var.$font-special;
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+        @media screen and (min-width: 680px){
+            text-align: right;
+        }
+    
+    }
+    &__author{
+        font-family: var.$font-special;
+        text-align: center;
+        font-weight: 600;
+        @media screen and (min-width: 680px){
+            text-align: right;
+        }
+
+    }
+    @media screen and (min-width: 680px){
+        grid-column: 1/2;
+        order: 1;
+    }
+}
+
+.timelinestory{
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 300;
+    @media screen and (min-width: 680px){
+        grid-column: 3/4;
+        order: 3;
+        margin: 0;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+}
+
+.timelinegallery{
+    display: none;
+
+    @media screen and (min-width: 680px){
+        display: inherit;
+        grid-column: 6/8;
+        margin-left: 2rem;
+        padding-top: 6rem;
+    }
+
+    &__photo{
+        width: 100%;
+    }
+}

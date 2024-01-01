@@ -1,0 +1,21 @@
+---
+layout: layouts/main.njk
+---
+
+<div class="wrapper">
+  <div class="grid">
+
+    <article class="post">
+      <h1 class="post__title">{{ title }}</h1>
+      <p class="post__date">
+        {{ page.date.toLocaleString(cs - CZ) }}
+      </p>
+      <img class="post__photo" src="/images/{{ photo }}" alt="{{ alt }}" />
+      {{ content | safe }}
+    </article>
+
+    <aside class="sidebar">{% include 'partials/sidebar.njk' %}</aside>
+    
+  </div>
+</div>
+ 

@@ -1,0 +1,47 @@
+@use '../utils/var';
+
+
+.footer__newsletter{
+    margin-bottom: 4rem;
+
+    @media screen and (min-width: 680px){
+       grid-column: 1 / 4;
+       align-self: end;
+    }
+}
+
+.newsletter{
+
+    &--sidebar{
+        background-color: var.$color-primary;
+        padding: 3rem;
+    }
+    &--footer{
+        display: flex;
+    }
+    &__tag{
+        text-transform: uppercase;
+        font-family: var.$font-special;
+        color: var.$color-accent;
+        margin: 0;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    &__desc{
+        font-family: var.$font-special;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        margin: 2rem 0 3rem 0;
+
+    }
+    &__input{
+        width: 100%;
+        flex-grow: 1;
+        display: inline-block;
+        border: 0;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+}

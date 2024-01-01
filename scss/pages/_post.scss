@@ -1,0 +1,26 @@
+@use '../utils/var';
+
+.post{
+    padding: 4rem 0;
+
+    @media screen and (min-width: 680px){
+        grid-column: 1/5;
+    }
+
+    &__title{
+        margin: 0;
+        font-size: 3.5rem;
+    }
+
+    &__date{
+        font-family: var.$font-special;
+        color: var.$color-accent;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    &__photo{
+        width: 100%;
+    }
+}

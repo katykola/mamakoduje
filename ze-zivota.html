@@ -1,0 +1,39 @@
+---
+layout: /layouts/blog.njk
+title: Ze života
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+---
+
+{% include 'partials/tags-blog.njk' %}
+
+<div class="blog__grid">
+  {% for post in posts | reverse %}
+  <div class="blog__post">
+    <a href="{{ post.url }}">
+      <img
+        class="blog__photo"
+        src="/images/{{ post.data.photo }}"
+        alt="{{ post.data.alt }}"
+      />
+    </a>
+    <p class="blog__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
+    <a href="{{ post.url }}">
+      <h2 class="blog__title">{{ post.data.title }}</h2>
+    </a>
+    <p class="blog__perex">{{ post.data.perex }}</p>
+    <a class="blog__link" href="{{ post.url }}">---Přečíst</a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}"
+    >Předchozí</a
+  >{% endif %} | {% if pagination.href.next %}<a
+    href="{{ pagination.href.next }}"
+    >Další</a
+  >{% endif %}
+</div>

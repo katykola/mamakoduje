@@ -1,0 +1,35 @@
+@use '../utils/var';
+
+.btn{
+    margin: 0;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-family: var.$font-special;
+    font-size: 1.3rem;
+    border: 0;
+
+    &:hover{
+        cursor: pointer;
+        background-color:#cf537c;
+    }
+    
+    &--block{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    &--inlineblock{
+        display: inline-block;
+    }
+
+    &--primary{
+        background-color: var.$color-accent;
+        color: white;
+    }
+
+    &--secondary{
+        background-color: #666;
+        color: white;
+    }
+}

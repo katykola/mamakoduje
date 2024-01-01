@@ -1,0 +1,74 @@
+@use '../utils/var';
+
+html {
+    font-size: 62.5%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .small,
+  .smaller,
+  a {
+    font-family: "Inria Sans", sans-serif;
+    color: var.$color-font;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2.6rem;
+  }
+  @media screen and (min-width: 680px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  
+  h2 {
+    font-size: 2.1rem;
+  }
+  @media screen and (min-width: 680px) {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  
+  h3 {
+    font-size: 3.3rem;
+  }
+  
+  h4 {
+    font-size: 2.7rem;
+  }
+  
+  h5 {
+    font-size: 2.3rem;
+  }
+  
+  .small {
+    font-size: 1.3rem;
+  }
+  
+  .smaller {
+    font-size: 1.1rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  body {
+    color: var.$color-font;
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    margin: 0;
+  }
+  @media screen and (min-width: 680px) {
+    body {
+      font-size: 1.8rem;
+    }
+  }

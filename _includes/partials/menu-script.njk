@@ -1,0 +1,22 @@
+<script>
+  window.onscroll = function () {
+    myFunction();
+  };
+  var logo = document.getElementById("myLogo");
+  var stickyLogo = logo.offsetTop;
+  var header = document.getElementById("myHeader");
+  var stickyHeader = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > stickyLogo) {
+      logo.classList.add("logo--sticky");
+    } else {
+      logo.classList.remove("logo--sticky");
+    }
+    if (window.pageYOffset > stickyHeader) {
+      header.classList.add("header--sticky");
+    } else {
+      header.classList.remove("header--sticky");
+    }
+  }
+</script>

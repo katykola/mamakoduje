@@ -1,0 +1,76 @@
+@use '../utils/var';
+
+.contact{
+    padding: 6rem 0;
+
+    &__desc{
+        grid-column: 1/4;
+        margin-right: 4rem;
+    }
+    &__photo{
+        width: 100%;
+        grid-column: 6/8;
+    }
+}
+
+.form{
+    grid-column: 4/8;
+    margin: 5rem 0;
+
+    &__label{
+        font-family: var.$font-special;
+        color: var.$color-font;
+        font-size: 1.5rem;
+        margin: 0;
+        display: block;
+    }
+
+    &__input{
+        border: none;
+        border-bottom: 1px solid #999;
+        background-color: var.$color-primary;
+        font-size: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 3rem;
+
+        &:focus,
+        &:active{
+            outline: none;
+            border: 1px solid #999;
+            background-color: var.$color-secondary;
+        }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover, 
+        &:-webkit-autofill:focus{
+            -webkit-text-fill-color: var.$color-font;
+            -webkit-box-shadow: 0 0 0px 40rem var.$color-secondary inset;
+        }
+
+    }
+
+    &__button{
+        display: flex;
+        justify-content: end;
+    }
+
+}
+
+.form-thanks{
+    grid-column: 4/8;
+    background-color: var.$color-secondary;
+    padding: 5rem;
+    text-align: center;
+
+    &__title{
+        font-family: var.$font-special;
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+    &__sign{
+        font-family: 'Give You Glory', cursive;
+        font-size: 3rem;    
+    }
+    }

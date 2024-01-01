@@ -1,0 +1,39 @@
+@use '../utils/var';
+@use '../layout/collection';
+
+.blog{
+
+    &__post{
+        padding-bottom: 2rem;
+    }
+    &__grid{
+    @media screen and (min-width: 680px){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+    }
+    &__photo{
+        width: 100%;
+        @media screen and (min-width: 680px){
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
+    &__date{
+        color: var.$color-accent;
+        font-family: var.$font-special;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    &__title{
+        font-size: 2rem;
+    }
+    &__perex{
+        font-size: 1.5rem;
+    }
+    &__link{
+        color: var.$color-font-light;
+        font-size: 1.3rem;
+    }
+}

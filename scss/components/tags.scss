@@ -1,0 +1,18 @@
+@use '../utils/var';
+
+
+.tag{
+    font-weight: 300;
+    padding: 1rem;
+    border: 1px solid var.$color-dark;
+    margin-right: 2rem;
+
+    &--active{
+        background-color: var.$color-dark;
+        color: white;
+    }
+
+    &__container{
+        margin-bottom: 5rem;
+    }
+}
