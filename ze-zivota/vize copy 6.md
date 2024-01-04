@@ -4,7 +4,7 @@ title: Hroch se snažil zhubnout
 photo: brooke-cagle-WHWYBmtn3_0-unsplash.jpg
 alt: Moje vize
 perex: Abych věděla, co dělat každý den a neztrácela se ve víru událostí všedního dne a taky úplně zbytných odboček, ve kterých jsem mistr, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.
-tags: posts
+tags: ["posts", "interview"]
 ---
 
 Abych věděla, co dělat každý den a neztrácela se ve víru událostí všedního dne a taky úplně zbytných odboček, ve kterých jsem mistr, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.
