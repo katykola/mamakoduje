@@ -1,6 +1,6 @@
 ---
 layout: /layouts/post.njk
-title: Testovací rozhovor
+title: Testovací rozhovor s fiktivní koderkou
 photo: brooke-cagle-WHWYBmtn3_0-unsplash.jpg
 alt: Rozhovor
 perex: Matka programátorka s více než 15 lety zkušeností v oblasti IT. Její vášeň pro programování ji přivedla k vývoji kvalitního softwaru a inovativních projektů.

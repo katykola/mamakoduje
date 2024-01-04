@@ -1,19 +1,19 @@
 ---
 layout: /layouts/post.njk
-title: První rok na mateřské a kódění. Jaký to bylo.
+title: První rok na mateřské a kódění. Jak to šlo?
 photo: brooke-cagle-WHWYBmtn3_0-unsplash.jpg
 alt: První rok
 perex: Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské.
 tags: ["posts", "personal"]
 ---
 
-Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské. Doufám, že moje shrnutí třeba někomu pomůže si udělat představu, jaké to asi bude a stanovit si alespoň trochu reálné cíle.
+Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské. Doufám, že moje shrnutí třeba někomu pomůže si udělat **představu, jaké to asi bude a stanovit si alespoň trochu reálné cíle.**
 
-Moje vzpomínky jsou už teď v jejím roce trochu fragmentované a nedokážu úplně přesně určit, co bylo kdy, ale jako orientace by to mohlo stačit.
+Moje vzpomínky jsou už teď v jejím roce trochu fragmentované a tak nedokážu úplně přesně určit, co bylo kdy, ale jako orientace by to mohlo stačit.
 
 ## Šestinedělí a první 3 měsíce
 
-Každý to vnímá jinak, tak se nenechte vyděsit, ale pro mě osobně bylo šestinedělí, které tak nějak vnímám jako delší než oněch 6 týdnů, velmi náročné. Možná to bylo i tím, že jsem se v těhotenství měla jako princezna a ten kontrast mezi full-mode mateřstvím a obdobím, kdy jsem si mohla říct o cokoliv a bylo mi vyhověno byl propastný.
+Každý to vnímá jinak, tak se nenechte vyděsit, ale pro mě osobně bylo šestinedělí velmi náročné. Možná to bylo i tím, že jsem se v těhotenství měla jako princezna a ten kontrast mezi full-mode mateřstvím a obdobím, kdy jsem si mohla říct o cokoliv a bylo mi vyhověno, byl propastný.
 
 Po 14 dnech od porodu muž odešel do práce a já najednou byla s tím malým uzlíčkem 11 hodin denně úplně sama. Naše malá trpěla od narození na koliky a tak nebyla nouze o jekot. A věřte mi, že není více nervy drásající zvuk pro čerstvou matku než jekot dítěte trpícího kolikou. Byly dny, kdy jsem musela vyjít ven na terasu a křičet jako zvíře. Sousedi si od té doby musí myslet, že jsem blázen.
 

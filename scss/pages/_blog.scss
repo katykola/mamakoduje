@@ -31,6 +31,11 @@
     }
     &__perex{
         font-size: 1.5rem;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
     }
     &__link{
         color: var.$color-font-light;
