@@ -722,6 +722,18 @@ body {
 .post__photo {
   width: 100%;
 }
+.post__link {
+  color: #FF6699;
+}
+.post__table, .post__tablehead, .post__tabledata {
+  border: 1px solid #FF6699;
+  border-collapse: collapse;
+}
+.post__tablehead, .post__tabledata {
+  padding: 1rem;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
 
 .contact {
   padding: 6rem 0;

@@ -23,4 +23,22 @@
     &__photo{
         width: 100%;
     }
+
+    &__link{
+        color: var.$color-accent;
+    }
+    
+    &__table,
+    &__tablehead,
+    &__tabledata{
+        border: 1px solid var.$color-accent;
+        border-collapse: collapse;
+    }
+
+    &__tablehead,
+    &__tabledata{
+        padding: 1rem;
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
 }
