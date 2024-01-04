@@ -667,10 +667,20 @@ body {
 }
 .review__perex {
   font-size: 1.5rem;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 .review__link {
   color: #888;
   font-size: 1.3rem;
+}
+.review__video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.7777/1;
 }
 
 .collection {
@@ -759,6 +769,39 @@ body {
   border: 1px solid #FF6699;
   padding: 0 1rem;
   margin-bottom: 2rem;
+}
+
+.rating {
+  padding: 2rem 0;
+}
+.rating__sections {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 680px) {
+  .rating__sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+.rating__section {
+  border: 1px solid #FF6699;
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 680px) {
+  .rating__section {
+    margin: 0;
+  }
+}
+.rating__list {
+  padding-inline-start: 30px;
+}
+.rating__text {
+  font-size: 1.5rem;
+}
+.rating__button {
+  text-align: right;
 }
 
 .contact {

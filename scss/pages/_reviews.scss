@@ -38,11 +38,21 @@
     }
 
     &__perex{
-        font-size: 1.5rem;
+        font-size: 1.5rem;        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
     &__link{
         color: var.$color-font-light;
         font-size: 1.3rem;
+    }
+
+    &__video{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1.7777/1;
     }
 }

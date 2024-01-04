@@ -13,11 +13,11 @@ pagination:
   {% for post in posts | reverse %}
   <div class="blog__post">
     <a href="{{ post.url }}">
-      <img
-        class="blog__photo"
-        src="/images/{{ post.data.photo }}"
-        alt="{{ post.data.alt }}"
-      />
+        <img
+          class="blog__photo"
+          src="/images/{{ post.data.photo }}"
+          alt="{{ post.data.alt }}"
+        />
     </a>
     <p class="blog__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
     <a href="{{ post.url }}">

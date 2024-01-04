@@ -1,7 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: Minimální instalační balíček pro miminko.
-photo: brooke-cagle-WHWYBmtn3_0-unsplash.jpg
+photo: mimino-instalacni-balicek.jpg
 alt: Instalační balíček pro miminko
 perex: Na prvních pár měsíců miminku stačí pár věcí. Nabízím tedy můj instalační balíček, který je podle mě zcela dostačující.
 tags: ["posts", "personal"]
