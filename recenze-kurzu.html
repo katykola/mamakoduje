@@ -4,10 +4,11 @@ title: Recenze kurzů
 pagination:
   data: collections.reviews
   size: 3
-  alias: posts
+  alias: reviews
 ---
 
-{% include 'partials/tags-reviews.njk' %} {% for post in posts | reverse %}
+{% include 'partials/tags-reviews.njk' %} 
+{% for post in reviews | reverse %}
 <div class="review__post">
   <div class="review__img">
       <a href="{{ post.url }}">

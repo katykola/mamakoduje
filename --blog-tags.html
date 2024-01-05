@@ -7,14 +7,12 @@ pagination:
   filter: posts
 permalink: /ze-zivota/{{ tag }}/
 ---
- 
+
 {% include 'partials/tags-blog.njk' %}
 
 <div class="blog__grid">
-
-{% set taglist = collections[ tag ] %} 
-{% for post in taglist | reverse %}
-<div class="blog__post">
+  {% set taglist = collections[ tag ] %} {% for post in taglist | reverse %}
+  <div class="blog__post">
     <a href="{{ post.url }}">
       <img
         class="blog__photo"
@@ -29,6 +27,5 @@ permalink: /ze-zivota/{{ tag }}/
     <p class="blog__perex">{{ post.data.perex }}</p>
     <a class="blog__link" href="{{ post.url }}">---Přečíst</a>
   </div>
-{% endfor %}
-
+  {% endfor %}
 </div>
