@@ -1124,6 +1124,11 @@ body {
 .menu__item:first-of-type {
   border-top: 1px solid white;
 }
+@media screen and (min-width: 680px) {
+  .menu__item:first-of-type {
+    border: none;
+  }
+}
 .menu__item:last-of-type {
   border-bottom: none;
 }
@@ -1240,6 +1245,11 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+@media screen and (max-width: 679px) {
+  .footer__contact--hp {
+    display: none;
+  }
 }
 .footer__author {
   color: rgba(255, 255, 255, 0.544);

@@ -136,6 +136,9 @@ text-decoration: none;
     border-bottom: 1px solid white;
     &:first-of-type{
         border-top: 1px solid white;
+        @media screen and (min-width: 680px){
+            border: none;
+        }
     }
     &:last-of-type{
         border-bottom: none;
