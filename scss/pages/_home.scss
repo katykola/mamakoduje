@@ -11,11 +11,11 @@
     
     &__filter{
         background-color: rgba(46, 46, 46, 0.4);
-
+        height: 100svh;
     }
 
     &__flex{
-        height: 100vh;
+        height: 100svh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;    
