@@ -19,6 +19,11 @@
     @media screen and (max-width: 1300px){ 
         padding: 0 4rem;
     }
+    &--nopadding{
+        @media screen and (max-width: 679px){
+            padding: 0;
+        }
+    }
 }
 
 // Background

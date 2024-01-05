@@ -990,9 +990,6 @@ body {
   margin-bottom: 5rem;
 }
 
-.header {
-  padding: 1rem;
-}
 @media screen and (min-width: 680px) {
   .header {
     grid-column: 2/7;
@@ -1049,11 +1046,6 @@ body {
 .logo--hp {
   color: white;
 }
-@media screen and (max-width: 679px) {
-  .logo--hp {
-    margin-left: -4rem;
-  }
-}
 @media screen and (min-width: 680px) {
   .logo--hp {
     border-bottom: 1px solid white;
@@ -1081,7 +1073,7 @@ body {
 .menu__toggler {
   position: absolute;
   right: 2rem;
-  top: 1.5rem;
+  top: 0.5rem;
   color: white;
 }
 @media screen and (min-width: 680px) {
@@ -1097,7 +1089,7 @@ body {
 }
 @media screen and (max-width: 679px) {
   .menu__list {
-    background-color: #FFDCED;
+    background-color: #FF6699;
   }
 }
 .menu__line {
@@ -1266,6 +1258,11 @@ body {
 @media screen and (max-width: 1300px) {
   .wrapper {
     padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 679px) {
+  .wrapper--nopadding {
+    padding: 0;
   }
 }
 

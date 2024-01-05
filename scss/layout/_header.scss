@@ -3,7 +3,6 @@
 // Header
 
 .header{
-    padding: 1rem;
 
 @media screen and (min-width: 680px){
     grid-column: 2 / 7;
@@ -42,7 +41,7 @@ background-color: var.$color-primary;
 display: block;
 font-family: var.$font-logo;
 color: var.$color-font;
-font-size: 2rem;
+font-size: 2rem; 
 font-weight: 500; 
 margin: 0;
 text-align: center;
@@ -52,6 +51,7 @@ text-decoration: none;
 @media screen and (max-width: 679px){
     display: inline;
     padding-left: 1rem;
+
 }
 
 @media screen and (min-width: 680px) {
@@ -63,9 +63,7 @@ text-decoration: none;
 
 &--hp{
     color: white;
-    @media screen and (max-width: 679px){
-        margin-left: -4rem;
-    }
+
     @media screen and (min-width: 680px) {
         border-bottom: 1px solid white;
     }
@@ -99,7 +97,7 @@ text-decoration: none;
 &__toggler{
     position: absolute;
     right: 2rem;
-    top: 1.5rem;
+    top: 0.5rem;
     color: white;
     @media screen and (min-width: 680px){
         display: none;
@@ -113,7 +111,7 @@ text-decoration: none;
     list-style: none;    
 
     @media screen and (max-width: 679px){
-        background-color: var.$color-primary;
+        background-color: var.$color-accent;
     }
 }
 
