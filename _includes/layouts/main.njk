@@ -21,14 +21,15 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <!--Header-->
-    {% include 'partials/header.njk' %}
-
-    <!--Content-->
-    {{ content | safe }}
-
-    <!--Footer-->
-
-    {% include 'partials/footer.njk' %}
+    <div class="pagecontainer">
+      <div class="pagecontainer__content">
+        <!--Header-->
+        {% include 'partials/header.njk' %}
+        <!--Content-->
+        {{ content | safe }}
+      </div>
+      <!--Footer-->
+      {% include 'partials/footer.njk' %}
+    </div>
   </body>
 </html>

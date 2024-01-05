@@ -1,5 +1,12 @@
 @use '../utils/var';
 
+.pagecontainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 //Grid
 
 .grid{
