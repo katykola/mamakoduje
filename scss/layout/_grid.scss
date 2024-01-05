@@ -16,11 +16,11 @@
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    
+
     @media screen and (max-width: 679px){
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
-    @media screen and (max-width: 1300px){ 
+    @media screen and (min-width:680px) and (max-width: 1300px){ 
         padding: 0 4rem;
     }
 
