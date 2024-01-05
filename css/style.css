@@ -336,7 +336,7 @@ a {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: 3.5rem;
 }
 @media screen and (min-width: 680px) {
   h1 {
@@ -491,6 +491,9 @@ body {
   text-align: right;
 }
 
+.aboutme__title {
+  margin-top: 1rem;
+}
 .aboutme__photo {
   width: 100%;
 }
@@ -525,12 +528,14 @@ body {
 
 .timeline {
   padding: 0 6rem;
+  padding-bottom: 6rem;
 }
 @media screen and (min-width: 680px) {
   .timeline {
     grid-column: 1/6;
     padding: 0;
     padding-top: 6rem;
+    padding-top: 0;
   }
 }
 .timeline__background {
@@ -692,8 +697,13 @@ body {
 }
 
 .collection {
-  grid-column: 1/6;
-  padding-top: 8rem;
+  padding-top: 3rem;
+}
+@media screen and (min-width: 680px) {
+  .collection {
+    grid-column: 1/6;
+    padding-top: 8rem;
+  }
 }
 
 .blog__post {
@@ -995,7 +1005,12 @@ body {
   color: white;
 }
 .tag__container {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 680px) {
+  .tag__container {
+    margin-bottom: 5rem;
+  }
 }
 
 @media screen and (min-width: 680px) {
