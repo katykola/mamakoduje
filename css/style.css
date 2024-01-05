@@ -1255,6 +1255,11 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+@media screen and (max-width: 679px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
 @media screen and (max-width: 1300px) {
   .wrapper {
     padding: 0 4rem;
