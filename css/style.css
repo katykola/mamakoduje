@@ -648,8 +648,13 @@ body {
 }
 
 .reviews {
-  grid-column: 1/6;
-  padding-top: 8rem;
+  padding-top: 3rem;
+}
+@media screen and (min-width: 680px) {
+  .reviews {
+    grid-column: 1/6;
+    padding-top: 8rem;
+  }
 }
 
 .review__post {
@@ -833,10 +838,13 @@ body {
   width: 100%;
   grid-column: 6/8;
 }
+.contact__title {
+  padding-top: 1rem;
+}
 
 .form {
   grid-column: 4/8;
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 .form__label {
   font-family: "Inria Sans", sans-serif;
@@ -987,11 +995,16 @@ body {
 }
 
 .pagination {
-  margin: 4rem 0;
+  margin-bottom: 2rem;
   text-align: center;
   font-size: 1.5rem;
   font-family: "Inria Sans", sans-serif;
   color: #FF6699;
+}
+@media screen and (min-width: 680px) {
+  .pagination {
+    margin: 4rem 0;
+  }
 }
 
 .tag {
@@ -1293,6 +1306,7 @@ body {
   font-family: "Inria Sans", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
+  padding-left: 1rem;
 }
 .footer__socials:hover {
   color: #FF6699;

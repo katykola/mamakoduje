@@ -11,11 +11,15 @@
         width: 100%;
         grid-column: 6/8;
     }
+    &__title{
+        padding-top: 1rem;
+    }
 }
 
 .form{
+
     grid-column: 4/8;
-    margin: 5rem 0;
+    padding: 5rem 0;
 
     &__label{
         font-family: var.$font-special;

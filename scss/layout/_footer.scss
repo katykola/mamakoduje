@@ -118,7 +118,9 @@
         color: rgba(255, 255, 255, 0.544);
         font-family: var.$font-special;
         font-weight: 300;
-        font-size: 1.5rem;
+        font-size: 1.5rem;            
+        padding-left: 1rem;
+
         &:hover{
             color: var.$color-accent;
             cursor: pointer;

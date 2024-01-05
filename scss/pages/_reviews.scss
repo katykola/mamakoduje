@@ -1,8 +1,13 @@
 @use '../utils/var';
 
 .reviews{
-    grid-column: 1/6;
-    padding-top: 8rem;
+    padding-top: 3rem;
+
+    @media screen and (min-width: 680px){
+
+        grid-column: 1/6;
+        padding-top: 8rem;
+    }
 }
 
 .review{
