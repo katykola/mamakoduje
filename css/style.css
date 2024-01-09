@@ -458,6 +458,11 @@ body {
 .claim__buttons {
   padding-bottom: 3rem;
 }
+@media screen and (max-width: 679px) {
+  .claim__buttons {
+    padding-bottom: 5rem;
+  }
+}
 @media screen and (min-width: 680px) {
   .claim__buttons {
     display: none;
@@ -1281,16 +1286,11 @@ body {
 }
 .footer__contact--hp {
   margin: 0;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   max-width: none;
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-@media screen and (max-width: 679px) {
-  .footer__contact--hp {
-    display: none;
-  }
 }
 .footer__author {
   color: rgba(255, 255, 255, 0.544);
@@ -1302,6 +1302,11 @@ body {
   color: #FF6699;
   cursor: pointer;
 }
+@media screen and (max-width: 679px) {
+  .footer__author {
+    font-size: 1.4rem;
+  }
+}
 .footer__socials {
   color: rgba(255, 255, 255, 0.544);
   font-family: "Inria Sans", sans-serif;
@@ -1312,6 +1317,11 @@ body {
 .footer__socials:hover {
   color: #FF6699;
   cursor: pointer;
+}
+@media screen and (max-width: 679px) {
+  .footer__socials {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (min-width: 680px) {
   .footer__socials {

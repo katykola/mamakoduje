@@ -51,6 +51,9 @@
     }
     &__buttons{
         padding-bottom: 3rem;
+        @media screen and (max-width: 679px) {
+            padding-bottom: 5rem;
+        }
         @media screen and (min-width: 680px) {
             display: none;
         }
