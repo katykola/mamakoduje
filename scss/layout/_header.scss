@@ -148,9 +148,9 @@ text-decoration: none;
     }
 
     &--hp{
-        color: var.$color-font;
+        color: white;
         &:hover{
-            color: var.$color-primary;
+            color: var.$color-accent;
         }
     }
 

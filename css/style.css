@@ -1165,10 +1165,10 @@ body {
   color: white;
 }
 .menu__item--hp {
-  color: #333333;
+  color: white;
 }
 .menu__item--hp:hover {
-  color: #FFDCED;
+  color: #FF6699;
 }
 @media screen and (max-width: 679px) {
   .menu__item {
