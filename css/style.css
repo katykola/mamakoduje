@@ -1033,7 +1033,7 @@ body {
   }
 }
 .header--color {
-  background-color: #FF6699;
+  background-color: #FFDCED;
 }
 @media screen and (min-width: 680px) {
   .header--color {
@@ -1131,7 +1131,7 @@ body {
 }
 @media screen and (max-width: 679px) {
   .menu__list {
-    background-color: #FF6699;
+    background-color: #FFDCED;
   }
 }
 .menu__line {
@@ -1148,10 +1148,10 @@ body {
   font-weight: 300;
   color: #333333;
   padding: 1rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #333333;
 }
 .menu__item:first-of-type {
-  border-top: 1px solid white;
+  border-top: 1px solid #333333;
 }
 @media screen and (min-width: 680px) {
   .menu__item:first-of-type {
@@ -1165,14 +1165,14 @@ body {
   color: white;
 }
 .menu__item--hp {
-  color: white;
+  color: #333333;
 }
 .menu__item--hp:hover {
   color: #FFDCED;
 }
 @media screen and (max-width: 679px) {
   .menu__item {
-    color: white;
+    color: #333333;
   }
 }
 @media screen and (min-width: 680px) {
