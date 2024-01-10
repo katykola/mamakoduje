@@ -5,6 +5,7 @@
 
     &__post{
         padding-bottom: 2rem;
+        background-color: var.$color-secondary;
     }
     &__grid{
     @media screen and (min-width: 680px){
@@ -40,5 +41,8 @@
     &__link{
         color: var.$color-font-light;
         font-size: 1.3rem;
+    }
+    &__postcontainer{
+        padding: 2rem;
     }
 }

@@ -718,6 +718,7 @@ body {
 
 .blog__post {
   padding-bottom: 2rem;
+  background-color: #EFEFEF;
 }
 @media screen and (min-width: 680px) {
   .blog__grid {
@@ -756,6 +757,9 @@ body {
 .blog__link {
   color: #888;
   font-size: 1.3rem;
+}
+.blog__postcontainer {
+  padding: 2rem;
 }
 
 .post {

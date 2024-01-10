@@ -2,18 +2,14 @@
 layout: layouts/main.njk
 ---
 
-<div class="background">
+<div class="background background--primary">
   <div class="wrapper">
     <div class="grid">
-  
       <main class="collection">
         {{ content | safe }}
       </main>
-  
-      <aside class="sidebar">
-        {% include 'partials/sidebar.njk' %}
-      </aside>
-  
+
+      <aside class="sidebar">{% include 'partials/sidebar.njk' %}</aside>
     </div>
   </div>
 </div>
