@@ -409,7 +409,7 @@ body {
 .hero {
   height: 100svh;
   position: relative;
-  background: url(/images/lari-avilis-A2f6pwy2RnY-unsplash.jpg);
+  background: url(/images/christin-hume-mfB1B1s4sMc-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -861,7 +861,7 @@ body {
 .form__input {
   border: none;
   border-bottom: 1px solid #999;
-  background-color: #FFDCED;
+  background-color: #f9c7cd;
   font-size: 1.5rem;
   width: 100%;
   padding: 1rem;
@@ -968,7 +968,7 @@ body {
 }
 
 .newsletter--sidebar {
-  background-color: #FFDCED;
+  background-color: #f9c7cd;
   padding: 3rem;
 }
 .newsletter--footer {
@@ -1060,11 +1060,11 @@ body {
   }
 }
 .header--color {
-  background-color: #FFDCED;
+  background-color: #f9c7cd;
 }
 @media screen and (min-width: 680px) {
   .header--color {
-    background-color: #FFDCED;
+    background-color: #f9c7cd;
   }
 }
 
@@ -1072,7 +1072,7 @@ body {
   display: block;
   font-family: "Inknut Antiqua", serif;
   color: #333333;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin: 0;
   text-align: center;
@@ -1122,7 +1122,7 @@ body {
 .menu__toggler {
   position: absolute;
   right: 2rem;
-  top: 0.5rem;
+  top: 1rem;
 }
 @media screen and (min-width: 680px) {
   .menu__toggler {
@@ -1142,7 +1142,7 @@ body {
 }
 @media screen and (max-width: 679px) {
   .menu__list {
-    background-color: #FFDCED;
+    background-color: #f9c7cd;
   }
 }
 .menu__line {
@@ -1200,7 +1200,7 @@ body {
     width: 100%;
   }
   .header:has(.menu__checkbox:checked) {
-    background-color: #FFDCED;
+    background-color: #f9c7cd;
   }
   .header:has(.menu__checkbox:checked) .logo,
   .header:has(.menu__checkbox:checked) .menu__toggler {
@@ -1380,7 +1380,7 @@ body {
 }
 
 .background--primary {
-  background-color: #FFDCED;
+  background-color: #f9c7cd;
 }
 .background--secondary {
   background-color: #EFEFEF;
