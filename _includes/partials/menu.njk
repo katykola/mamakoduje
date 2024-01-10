@@ -1,6 +1,6 @@
 <nav class="menu">
   <input type="checkbox" class="menu__checkbox" id="menu-checkbox" />
-  <label for="menu-checkbox" class="menu__toggler">☰</label>
+  <label for="menu-checkbox" class="menu__toggler {{ 'menu__toggler--hp' if page.fileSlug === '' }}">☰</label>
   <div class="menu__list">
     <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }}" href="/">Home</a>
     <a class="menu__item {{ 'menu__item--hp' if page.fileSlug === '' }} " href="/o-me/">O mě</a>

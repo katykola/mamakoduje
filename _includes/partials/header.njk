@@ -2,7 +2,7 @@
   <div class="wrapper wrapper--nopadding">
     <header id="myHeader" class="header">
       <!--Logo-->
-      <a href="/" id="myLogo" class="logo">Mama koduje</a>
+      <a href="/" id="myLogo" class="logo {{ 'logo--hp' if page.fileSlug === '' }}">Mama koduje</a>
       <!--Menu-->
       {% include 'partials/menu.njk' %}
     </header>

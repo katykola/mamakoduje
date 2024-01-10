@@ -460,7 +460,7 @@ body {
 }
 @media screen and (max-width: 679px) {
   .claim__buttons {
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
 }
 @media screen and (min-width: 680px) {
@@ -1031,6 +1031,28 @@ body {
   }
 }
 
+.header {
+  /*
+  &--sticky{
+  padding-bottom: 1rem;
+  z-index: 7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var.$color-primary;
+
+  @media screen and (min-width: 680px){
+      display: flex;
+      background-color: var.$color-accent;
+      padding: 0 3rem;
+  }
+  }
+  */
+}
 @media screen and (min-width: 680px) {
   .header {
     grid-column: 2/7;
@@ -1043,25 +1065,6 @@ body {
 @media screen and (min-width: 680px) {
   .header--color {
     background-color: #FFDCED;
-  }
-}
-.header--sticky {
-  padding-bottom: 1rem;
-  z-index: 7;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  grid-column: 1/-1;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFDCED;
-}
-@media screen and (min-width: 680px) {
-  .header--sticky {
-    display: flex;
-    background-color: #FF6699;
-    padding: 0 3rem;
   }
 }
 
@@ -1079,7 +1082,6 @@ body {
   .logo {
     display: inline;
     padding-left: 2rem;
-    color: white;
   }
 }
 @media screen and (min-width: 680px) {
@@ -1121,11 +1123,15 @@ body {
   position: absolute;
   right: 2rem;
   top: 0.5rem;
-  color: white;
 }
 @media screen and (min-width: 680px) {
   .menu__toggler {
     display: none;
+  }
+}
+@media screen and (max-width: 679px) {
+  .menu__toggler--hp {
+    color: white;
   }
 }
 .menu__list {
@@ -1190,6 +1196,15 @@ body {
 @media screen and (max-width: 679px) {
   .menu__checkbox:checked ~ .menu__list {
     display: block;
+    position: absolute;
+    width: 100%;
+  }
+  .header:has(.menu__checkbox:checked) {
+    background-color: #FFDCED;
+  }
+  .header:has(.menu__checkbox:checked) .logo,
+  .header:has(.menu__checkbox:checked) .menu__toggler {
+    color: #333333;
   }
 }
 @media screen and (min-width: 680px) {
