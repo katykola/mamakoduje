@@ -2,6 +2,7 @@
 
 .contact{
     padding: 6rem 0;
+    background-color: var.$color-secondary;
 
     &__desc{
         grid-column: 1/4;
@@ -20,7 +21,7 @@
 
     grid-column: 4/8;
     padding: 5rem 0;
-
+    
     &__label{
         font-family: var.$font-special;
         color: var.$color-font;

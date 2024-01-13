@@ -13,13 +13,14 @@
 .review{
     
     &__post{
-        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        background-color: var.$color-secondary;
+        border-radius: 5px;
 
         @media screen and (min-width: 680px){
             display: grid;
             grid-template-columns: 2fr 3fr;
-            padding-bottom: 6rem;
-            gap: 2rem;
+            margin-bottom: 6rem;
         }
     }
 
@@ -27,7 +28,17 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 5px 5px 0 0;
         @media screen and (min-width: 680px){
+            border-radius: 5px 0 0 5px;
+        }
+    }
+
+    &__desc{
+        padding: 2rem;
+
+        @media screen and (min-width: 680px){
+            padding-left: 2rem;
         }
     }
 

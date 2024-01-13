@@ -663,14 +663,15 @@ body {
 }
 
 .review__post {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  background-color: #EFEFEF;
+  border-radius: 5px;
 }
 @media screen and (min-width: 680px) {
   .review__post {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    padding-bottom: 6rem;
-    gap: 2rem;
+    margin-bottom: 6rem;
   }
 }
 .review__photo {
@@ -678,6 +679,20 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+@media screen and (min-width: 680px) {
+  .review__photo {
+    border-radius: 5px 0 0 5px;
+  }
+}
+.review__desc {
+  padding: 2rem;
+}
+@media screen and (min-width: 680px) {
+  .review__desc {
+    padding-left: 2rem;
+  }
 }
 .review__date {
   color: #FF6699;
@@ -716,15 +731,21 @@ body {
   }
 }
 
-.blog__post {
-  padding-bottom: 2rem;
-  background-color: #EFEFEF;
-}
 @media screen and (min-width: 680px) {
   .blog__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
+  }
+}
+.blog__post {
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #be999e;
+}
+@media screen and (max-width: 679px) {
+  .blog__post {
+    margin-bottom: 2rem;
   }
 }
 .blog__photo {
@@ -735,7 +756,11 @@ body {
     aspect-ratio: 1/1;
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 5px 5px 0 0;
   }
+}
+.blog__postcontainer {
+  padding: 2rem;
 }
 .blog__date {
   color: #FF6699;
@@ -757,9 +782,6 @@ body {
 .blog__link {
   color: #888;
   font-size: 1.3rem;
-}
-.blog__postcontainer {
-  padding: 2rem;
 }
 
 .post {
@@ -838,6 +860,7 @@ body {
 
 .contact {
   padding: 6rem 0;
+  background-color: #EFEFEF;
 }
 .contact__desc {
   grid-column: 1/4;
@@ -1004,7 +1027,7 @@ body {
 }
 
 .pagination {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
   font-size: 1.5rem;
   font-family: "Inria Sans", sans-serif;
@@ -1012,7 +1035,7 @@ body {
 }
 @media screen and (min-width: 680px) {
   .pagination {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
 }
 
@@ -1353,6 +1376,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f9c7cd;
+}
+.pagecontainer__content {
+  min-height: 100dvh;
 }
 
 @media screen and (min-width: 680px) {
