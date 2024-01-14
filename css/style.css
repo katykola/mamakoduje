@@ -1060,6 +1060,7 @@ body {
 }
 
 .header {
+  border-bottom: 1px solid rgba(102, 102, 102, 0.2901960784);
   /*
   &--sticky{
   padding-bottom: 1rem;
@@ -1085,6 +1086,7 @@ body {
   .header {
     grid-column: 2/7;
     padding-bottom: 2rem;
+    border: none;
   }
 }
 .header--color {

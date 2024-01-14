@@ -3,10 +3,12 @@
 // Header
 
 .header{
+    border-bottom: 1px solid #6666664a;
 
 @media screen and (min-width: 680px){
     grid-column: 2 / 7;
     padding-bottom: 2rem;
+    border: none;
     }
 
 &--color{
