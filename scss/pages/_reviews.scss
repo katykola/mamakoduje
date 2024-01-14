@@ -16,6 +16,8 @@
         margin-bottom: 2rem;
         background-color: var.$color-secondary;
         border-radius: 5px;
+        box-shadow: 0 0 10px var.$color-primary-shadow;
+
 
         @media screen and (min-width: 680px){
             display: grid;

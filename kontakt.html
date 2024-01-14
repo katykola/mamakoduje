@@ -3,46 +3,42 @@ layout: layouts/main.njk
 title: Kontakt
 ---
 
-<div class="container background--primary">
-  <div class="wrapper grid contact">
-    <div class="contact__desc">
-      <h1 class="contact__title">Napiš mi</h1>
-      <p>
-        Ať už se chceš podělit o svoje osobní zkušenosti nebo zkušenosti z
-        pozice zaměstnavatele, <b>jsem tu pro tebe</b>.
-      </p>
-    </div>
-    <form class="form" action="https://submit-form.com/DES1NJNES">
-      <input type="hidden" name="_redirect" value=".../kontakt-diky/" />
-      <label class="form__label" for="name">Jméno*</label>
-      <input
-        class="form__input"
-        type="text"
-        id="name"
-        name="name"
-        required=""
-      />
-      <label class="form__label" for="email">Email*</label>
-      <input
-        class="form__input"
-        type="email"
-        id="email"
-        name="email"
-        required=""
-      />
-      <label class="form__label" for="message">Zpráva</label>
-      <textarea
-        class="form__input"
-        id="message"
-        name="message"
-        required=""
-        rows="6"
-      ></textarea>
-      <div class="form__button">
-        <button class="btn btn--inlineblock btn--primary" type="submit">
-          Odeslat
-        </button>
+  <div class="wrapper">
+    <div class="contact">
+      <div class="contact__form">
+        <form class="form" action="https://submit-form.com/DES1NJNES">
+          <input type="hidden" name="_redirect" value=".../kontakt-diky/" />
+          <label class="form__label" for="name">Jméno*</label>
+          <input
+            class="form__input"
+            type="text"
+            id="name"
+            name="name"
+            required=""
+          />
+          <label class="form__label" for="email">Email*</label>
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            required=""
+          />
+          <label class="form__label" for="message">Zpráva*</label>
+          <textarea
+            class="form__input"
+            id="message"
+            name="message"
+            required=""
+            rows="6"
+            required=""
+          ></textarea>
+          <div class="form__button">
+            <button class="btn btn--block btn--primary" type="submit">
+              Odeslat
+            </button>
+          </div>
+        </form>
       </div>
-    </form>
+    </div>
   </div>
-</div>
