@@ -867,7 +867,8 @@ body {
   margin-bottom: 4rem;
 }
 .contact__form {
-  min-width: 500px;
+  max-width: 500px;
+  flex-grow: 1;
 }
 
 .form {
@@ -876,8 +877,6 @@ body {
   padding: 4rem;
   border-radius: 5px;
   box-shadow: 0 0 10px #be999e;
-  flex-grow: 1;
-  max-width: 500px;
 }
 .form__label {
   font-family: "Inria Sans", sans-serif;
