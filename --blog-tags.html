@@ -1,5 +1,6 @@
 ---
 layout: /layouts/blog.njk
+title: Blog o životě programátorky | {{ tag }}
 pagination:
   data: collections
   size: 1
@@ -21,15 +22,15 @@ permalink: /ze-zivota/{{ tag }}/
       />
     </a>
 
-  <div class="blog__postcontainer">
-    <p class="blog__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
-    <a href="{{ post.url }}">
-      <h2 class="blog__title">{{ post.data.title }}</h2>
-    </a>
-    <p class="blog__perex">{{ post.data.perex }}</p>
-    <a class="blog__link" href="{{ post.url }}">---Přečíst</a>
+    <div class="blog__postcontainer">
+      <p class="blog__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
+      <a href="{{ post.url }}">
+        <h2 class="blog__title">{{ post.data.title }}</h2>
+      </a>
+      <p class="blog__perex">{{ post.data.perex }}</p>
+      <a class="blog__link" href="{{ post.url }}">---Přečíst</a>
+    </div>
   </div>
- </div>
 
   {% endfor %}
 </div>
