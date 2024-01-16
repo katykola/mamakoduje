@@ -1,4 +1,5 @@
 @use '../utils/var';
+@import '../utils/breakpoints';
 
 //Pagecontainer
 
@@ -19,7 +20,7 @@
 
 .grid{
     
-    @media screen and (min-width: 680px){
+    @include pc{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         gap: 6rem;
@@ -32,7 +33,7 @@
     max-width: 1200px;
     margin: auto;
 
-    @media screen and (max-width: 679px){
+    @include mobile{
         padding: 0 2rem;
     }
     @media screen and (min-width:680px) and (max-width: 1300px){ 
@@ -40,7 +41,7 @@
     }
 
     &--nopadding{
-        @media screen and (max-width: 679px){
+        @include mobile{
             padding: 0;
         }
     }

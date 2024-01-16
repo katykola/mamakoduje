@@ -1,11 +1,12 @@
 @use '../utils/var';
+@import '../utils/breakpoints';
 
 // Header
 
 .header{
     border-bottom: 1px solid #6666664a;
 
-@media screen and (min-width: 680px){
+@include pc{
     grid-column: 2 / 7;
     padding-bottom: 2rem;
     border: none;
@@ -13,7 +14,7 @@
 
 &--color{
     background-color: var.$color-primary;
-    @media screen and (min-width: 680px){
+    @include pc{
         background-color: var.$color-primary;
     }
 }
@@ -31,7 +32,7 @@ justify-content: space-between;
 align-items: center;
 background-color: var.$color-primary;
 
-@media screen and (min-width: 680px){
+@include pc{
     display: flex;
     background-color: var.$color-accent;
     padding: 0 3rem;
@@ -54,12 +55,12 @@ text-align: center;
 text-decoration: none;
 
 
-@media screen and (max-width: 679px){
+@include mobile{
     display: inline;
     padding-left: 2rem;
 }
 
-@media screen and (min-width: 680px) {
+@include pc {
     font-size: 7rem;
     padding: 4rem;
     margin-bottom: 1rem;
@@ -69,7 +70,7 @@ text-decoration: none;
 &--hp{
     color: white;
 
-    @media screen and (min-width: 680px) {
+    @include pc {
         border-bottom: 1px solid white;
     }
 }
@@ -89,7 +90,7 @@ text-decoration: none;
 
 .menu{
 
-@media screen and (min-width: 680px){
+@include pc{
     flex-direction: row;
     justify-content: space-between;
 }
@@ -104,11 +105,11 @@ text-decoration: none;
     right: 2rem;
     top: 1rem;
     //color: white;
-    @media screen and (min-width: 680px){
+    @include pc{
         display: none;
     }
     &--hp{
-        @media screen and (max-width: 679px){
+        @include mobile{
             color: white;
         }
     }
@@ -120,7 +121,7 @@ text-decoration: none;
     padding: 0;
     list-style: none;    
 
-    @media screen and (max-width: 679px){
+    @include mobile{
         background-color: var.$color-primary;
     }
 }
@@ -143,7 +144,7 @@ text-decoration: none;
     border-bottom: 1px solid var.$color-font;
     &:first-of-type{
         border-top: 1px solid var.$color-font;
-        @media screen and (min-width: 680px){
+        @include pc{
             border: none;
         }
     }
@@ -161,18 +162,18 @@ text-decoration: none;
         }
     }
 
-    @media screen and (max-width: 679px){
+    @include mobile{
         color:  var.$color-font;
     }
 
-    @media screen and (min-width: 680px){
+    @include pc{
         padding: 1rem 2rem;
         border: none;
     }
 }
 }
 
-@media screen and (max-width: 679px){
+@include mobile{
 
     .menu__checkbox:checked ~ .menu__list{
         display: block;
@@ -191,7 +192,7 @@ text-decoration: none;
 
 }
 
-@media screen and (min-width: 680px){
+@include pc{
 .menu__list{
     display: flex;
     justify-content: space-between;

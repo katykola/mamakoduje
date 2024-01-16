@@ -1,9 +1,10 @@
+// Utils
+@use 'utils/var';
+@use 'utils/breakpoints';
+
 // Base
 @use 'base/normalize';
 @use 'base/typography';
-
-// Utils
-@use 'utils/var';
 
 // Pages
 @use 'pages/home';
@@ -26,6 +27,5 @@
 @use 'layout/grid';
 @use 'layout/sidebar';
 @use 'layout/collection';
-
 
 

@@ -1,9 +1,10 @@
 @use '../utils/var';
+@import '../utils/breakpoints';
 
 .collection{
     padding-top: 3rem;
 
-    @media screen and (min-width: 680px){
+    @include pc{
 
         grid-column: 1/6;
         padding-top: 8rem;

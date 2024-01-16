@@ -1,10 +1,11 @@
 @use '../utils/var';
 @use '../layout/collection';
+@import '../utils/breakpoints';
 
 .blog{
 
     &__grid{
-    @media screen and (min-width: 680px){
+    @include pc{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 4rem;
@@ -16,7 +17,7 @@
         background-color: var.$color-secondary;
         border-radius: 5px;
         box-shadow: 0 0 10px var.$color-primary-shadow;
-        @media screen and (max-width: 679px){
+        @include mobile{
             margin-bottom: 2rem;
         }
     }
@@ -24,7 +25,7 @@
     
     &__photo{
         width: 100%;
-        @media screen and (min-width: 680px){
+        @include pc{
             aspect-ratio: 1/1;
             object-fit: cover;
             border-radius: 5px 5px 0 0;
