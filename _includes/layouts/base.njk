@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ metadescription }}" />
+
     <meta property="og:title" content="{{ title }} | Mama koduje" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://mamakoduje.cz/" />    
+    <meta property="og:url" content="https://mamakoduje.cz/" />
+    <meta property="og:image" content="{{ ogimage }}" />
     <meta property="og:locale" content="cs_CZ" />
+
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,7 +54,6 @@
     <meta name="msapplication-TileColor" content="#00aba9" />
     <meta name="msapplication-config" content="/images/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
-    <title>{{ title }}</title>
   </head>
   <body>
     {{ content | safe }}
