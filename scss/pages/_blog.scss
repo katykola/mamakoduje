@@ -5,6 +5,12 @@
 .blog{
 
     &__grid{
+    @include tablet{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        padding-bottom: 4rem;;
+    }
     @include pc{
         display: grid;
         grid-template-columns: repeat(3, 1fr);

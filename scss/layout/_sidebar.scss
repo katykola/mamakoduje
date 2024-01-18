@@ -11,12 +11,14 @@
     @include mobile{
         display: none;
     }
+    @include tablet{
+        display: none;
+    }
 
     &__content{
         background-color: var.$color-primary-dark;
         padding: 4rem;
         padding-bottom: 2rem;
-        position: sticky;
         margin-bottom: 4rem;
     }
     

@@ -14,11 +14,11 @@
 
     &__content{
 
-        @include mobile{
+        @include tablet-max{
             display: none;
         }
 
-        @include pc{
+        @include tablet-min{
         max-width: 1400px;
         padding-top: 3rem;
         border-top: 1px solid rgba(255, 255, 255, 0.544);
@@ -34,7 +34,7 @@
     &__topics{
         margin-bottom: 2rem;
 
-        @include pc{
+        @include tablet-min{
             margin-bottom: 4rem;
         }
     }
@@ -51,7 +51,7 @@
             color: var.$color-accent;
         }
 
-        @include pc{
+        @include tablet-min{
             font-size: 1.5rem;
         }
     }
@@ -117,7 +117,7 @@
         @include mobile{
             font-size: 1.3rem;
         }
-        @include pc{
+        @include tablet-min{
             padding-left: 2rem;
         }
     }
