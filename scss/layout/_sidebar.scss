@@ -1,27 +1,37 @@
 @use '../utils/var';
 @import '../utils/breakpoints';
 
-
 .sidebar{
     
     grid-column: 6/8;
     margin-left: 4rem;
     padding-top: 8rem;
-    position: sticky;
-    top: 0;
 
     
     @include mobile{
         display: none;
     }
+
+    &__content{
+        background-color: var.$color-primary-dark;
+        padding: 4rem;
+        padding-bottom: 2rem;
+        position: sticky;
+        margin-bottom: 4rem;
+    }
     
     &__post{
         margin-bottom: 4rem;
+        box-shadow: 0 0 10px var.$color-primary-shadow;
+        background-color: var.$color-secondary;
     }
 
     &__photo{
         width: 100%;
     }
+    &__text{
+        padding: 1rem;
+    } 
     &__date{
         margin: 0;
         color: var.$color-accent;
@@ -51,7 +61,7 @@
         top: 3rem;
         left: -6rem;
         font-family: var.$font-special;
-        color: var.$color-font-light;
+        color: white;
         font-weight: 300;
     }
 }

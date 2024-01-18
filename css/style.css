@@ -568,7 +568,7 @@ body {
   justify-items: center;
 }
 .timelinedate__months, .timelinedate__age {
-  color: #FF6699;
+  color: #CF6773;
   font-family: "Inria Sans", sans-serif;
   font-weight: 600;
   margin: 0;
@@ -585,7 +585,7 @@ body {
   justify-self: start;
 }
 .timelinedate__circle {
-  fill: #FF6699;
+  fill: #CF6773;
 }
 @media screen and (min-width: 680px) {
   .timelinedate {
@@ -696,7 +696,7 @@ body {
   }
 }
 .review__date {
-  color: #FF6699;
+  color: #CF6773;
   font-family: "Inria Sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
@@ -765,7 +765,7 @@ body {
   padding: 2rem;
 }
 .blog__date {
-  color: #FF6699;
+  color: #CF6773;
   font-family: "Inria Sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
@@ -801,7 +801,7 @@ body {
 }
 .post__date {
   font-family: "Inria Sans", sans-serif;
-  color: #FF6699;
+  color: #CF6773;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 2rem;
@@ -810,10 +810,10 @@ body {
   width: 100%;
 }
 .post__link {
-  color: #FF6699;
+  color: #CF6773;
 }
 .post__table, .post__tablehead, .post__tabledata {
-  border: 1px solid #FF6699;
+  border: 1px solid #CF6773;
   border-collapse: collapse;
 }
 .post__tablehead, .post__tabledata {
@@ -822,7 +822,7 @@ body {
   line-height: 1.4;
 }
 .post__section {
-  border: 1px solid #FF6699;
+  border: 1px solid #CF6773;
   padding: 0 1rem;
   margin-bottom: 2rem;
 }
@@ -841,7 +841,7 @@ body {
   }
 }
 .rating__section {
-  border: 1px solid #FF6699;
+  border: 1px solid #CF6773;
   padding: 3rem;
   margin-bottom: 2rem;
 }
@@ -946,7 +946,7 @@ body {
   display: inline-block;
 }
 .btn--primary {
-  background-color: #FF6699;
+  background-color: #CF6773;
   color: white;
 }
 .btn--secondary {
@@ -955,7 +955,7 @@ body {
 }
 
 .citation__text {
-  border-left: 5px solid #FF6699;
+  border-left: 5px solid #CF6773;
   padding-left: 2rem;
   padding-right: 2rem;
   font-family: "Inria Sans", sans-serif;
@@ -1005,7 +1005,7 @@ body {
 .newsletter__tag {
   text-transform: uppercase;
   font-family: "Inria Sans", sans-serif;
-  color: #FF6699;
+  color: #CF6773;
   margin: 0;
   font-size: 1.3rem;
   font-weight: 600;
@@ -1032,7 +1032,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   font-family: "Inria Sans", sans-serif;
-  color: #FF6699;
+  color: #CF6773;
 }
 @media screen and (min-width: 680px) {
   .pagination {
@@ -1209,7 +1209,7 @@ body {
   color: white;
 }
 .menu__item--hp:hover {
-  color: #FF6699;
+  color: #CF6773;
 }
 @media screen and (max-width: 679px) {
   .menu__item {
@@ -1288,7 +1288,7 @@ body {
   font-size: 1.5rem;
 }
 .footer__title:hover {
-  color: #FF6699;
+  color: #CF6773;
 }
 @media screen and (min-width: 680px) {
   .footer__title {
@@ -1306,7 +1306,7 @@ body {
   margin: 0;
 }
 .footer__link:hover {
-  color: #FF6699;
+  color: #CF6773;
 }
 .footer__contact {
   display: flex;
@@ -1330,7 +1330,7 @@ body {
   font-family: "Inria Serif", serif;
 }
 .footer__author:hover {
-  color: #FF6699;
+  color: #CF6773;
   cursor: pointer;
 }
 @media screen and (max-width: 679px) {
@@ -1346,7 +1346,7 @@ body {
   padding-left: 1rem;
 }
 .footer__socials:hover {
-  color: #FF6699;
+  color: #CF6773;
   cursor: pointer;
 }
 @media screen and (max-width: 679px) {
@@ -1413,23 +1413,33 @@ body {
   grid-column: 6/8;
   margin-left: 4rem;
   padding-top: 8rem;
-  position: sticky;
-  top: 0;
 }
 @media screen and (max-width: 679px) {
   .sidebar {
     display: none;
   }
 }
+.sidebar__content {
+  background-color: #F5A3AD;
+  padding: 4rem;
+  padding-bottom: 2rem;
+  position: sticky;
+  margin-bottom: 4rem;
+}
 .sidebar__post {
   margin-bottom: 4rem;
+  box-shadow: 0 0 10px #be999e;
+  background-color: #EFEFEF;
 }
 .sidebar__photo {
   width: 100%;
 }
+.sidebar__text {
+  padding: 1rem;
+}
 .sidebar__date {
   margin: 0;
-  color: #FF6699;
+  color: #CF6773;
   font-family: "Inria Sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
@@ -1454,6 +1464,6 @@ body {
   top: 3rem;
   left: -6rem;
   font-family: "Inria Sans", sans-serif;
-  color: #888;
+  color: white;
   font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
