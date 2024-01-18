@@ -872,17 +872,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
 }
 .contact__form {
   max-width: 500px;
   flex-grow: 1;
-  margin-top: 2rem;
 }
 
 .form {
   background-color: #EFEFEF;
-  margin-top: 2rem;
   padding: 4rem;
   border-radius: 5px;
   box-shadow: 0 0 10px #be999e;
@@ -919,10 +918,11 @@ body {
 }
 
 .form-thanks {
-  grid-column: 4/8;
   background-color: #EFEFEF;
   padding: 5rem;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #be999e;
 }
 .form-thanks__title {
   font-family: "Inria Sans", sans-serif;

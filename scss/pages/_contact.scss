@@ -4,18 +4,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
 
     &__form{
         max-width: 500px;
         flex-grow: 1;
-        margin-top: 2rem;
     }
 }
 
 .form{
     background-color: var.$color-secondary;
-    margin-top: 2rem;
     padding: 4rem;
     border-radius: 5px;
     box-shadow: 0 0 10px var.$color-primary-shadow;
@@ -62,10 +61,12 @@
 }
 
 .form-thanks{
-    grid-column: 4/8;
     background-color: var.$color-secondary;
     padding: 5rem;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var.$color-primary-shadow;
+
 
     &__title{
         font-family: var.$font-special;
