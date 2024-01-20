@@ -409,9 +409,24 @@ body {
 .hero {
   height: 100svh;
   position: relative;
-  background: url(/images/kodovani-ruce.jpg);
+  background-color: #f9c7cd;
+  background: url(/images/baby768.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 0 40%;
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: url(/images/baby1200.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero {
+    background: url(/images/baby1600.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+  }
 }
 .hero__filter {
   background-color: rgba(46, 46, 46, 0.4);
@@ -496,6 +511,15 @@ body {
   text-align: right;
 }
 
+/*
+
+<picture>
+  <source media="(max-width: 768px)" srcset="images/baby768.jpg.jpg">
+  <source media="(max-width: 1200px)" srcset="images/baby1200.jpg">
+  <img src="images/baby1600.jpg" alt="matka programátorka">
+</picture>
+
+*/
 .aboutme__title {
   margin-top: 1rem;
 }
@@ -797,9 +821,19 @@ body {
 .post {
   padding: 4rem 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1149px) {
+  .post {
+    max-width: 600px;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 1150px) {
   .post {
-    grid-column: 1/5;
+    grid-column: 1/6;
+    background-color: #EFEFEF;
+    padding: 4rem 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
 .post__title {
@@ -1411,6 +1445,11 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1149px) {
   .sidebar {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1149px) {
+  .sidebar--post {
+    grid-column: 6/8;
   }
 }
 .sidebar__content {
