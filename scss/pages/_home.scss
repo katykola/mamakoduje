@@ -8,23 +8,24 @@
     height: 100svh;
     position: relative;
     background-color: var.$color-primary;
-    background: url(/images/baby768.jpg);
+    background: url(/images/baby1600.jpg);
     background-size: cover;
     background-position: 0 40%;
-    
-    @media screen and (min-width: 2400px){
+
+    @media screen and (max-width: 1200px){
         background: url(/images/baby1200.jpg);
         background-size: cover;
         background-position: 0 40%;
-        }
-    @media screen and (min-width: 3600px){
-        background: url(/images/baby1600.jpg);
-        background-size: cover;        
+    }
+
+    @media screen and (max-width: 768px){
+        background: url(/images/baby768.jpg);
+        background-size: cover;
         background-position: 0 40%;
     }
 
     &__filter{
-        background-color: rgba(46, 46, 46, 0.4);
+        background-color: rgba(46, 46, 46, 0.25);
         height: 100svh;
     }
 
@@ -104,12 +105,3 @@
     }
 }
 
-/*
-
-<picture>
-  <source media="(max-width: 768px)" srcset="images/baby768.jpg.jpg">
-  <source media="(max-width: 1200px)" srcset="images/baby1200.jpg">
-  <img src="images/baby1600.jpg" alt="matka programátorka">
-</picture>
-
-*/

@@ -5,27 +5,28 @@
     padding-top: 3rem;
 
     @include pc{
-
         grid-column: 1/6;
         padding-top: 8rem;
     }
 }
 
 .review{
+
+    &__grid{
+        @media screen and (min-width: 500px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+    }
     
     &__post{
         margin-bottom: 2rem;
         background-color: var.$color-secondary;
         border-radius: 5px;
         box-shadow: 0 0 10px var.$color-primary-shadow;
-
-
-        @include pc{
-            display: grid;
-            grid-template-columns: 2fr 3fr;
-            margin-bottom: 6rem;
-        }
     }
+
 
    &__photo{
         width: 100%;
@@ -50,6 +51,7 @@
         font-family: var.$font-special;
         font-size: 1.3rem;
         font-weight: 600;
+        margin-top: 0;
     }
 
     &__title{

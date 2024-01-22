@@ -3,14 +3,16 @@
 @import '../utils/breakpoints';
 
 .blog{
-
+    
     &__grid{
-    @include tablet{
+
+    @media screen and (min-width: 500px){
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 4rem;
-        padding-bottom: 4rem;;
+        grid-template-columns: repeat(2, 1fr);
+         gap: 4rem;
+        padding-bottom: 4rem;
     }
+
     @include pc{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -47,6 +49,7 @@
         font-family: var.$font-special;
         font-size: 1.3rem;
         font-weight: 600;
+        margin-top: 0
     }
 
     &__title{

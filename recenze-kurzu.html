@@ -9,27 +9,30 @@ pagination:
   alias: reviews
 ---
 
-{% include 'partials/tags-reviews.njk' %} {% for post in reviews | reverse %}
-<div class="review__post">
-  <div class="review__img">
-    <a href="{{ post.url }}">
-      <img
-        class="review__photo"
-        src="/images/{{ post.data.photo }}"
-        alt="{{ post.data.alt }}"
-      />
-    </a>
+{% include 'partials/tags-reviews.njk' %}
+<div class="review__grid">
+  {% for post in reviews | reverse %}
+  <div class="review__post">
+    <div class="review__img">
+      <a href="{{ post.url }}">
+        <img
+          class="review__photo"
+          src="/images/{{ post.data.photo }}"
+          alt="{{ post.data.alt }}"
+        />
+      </a>
+    </div>
+    <div class="review__desc">
+      <p class="review__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
+      <a href="{{ post.url }}"
+        ><h2 class="review__title">{{ post.data.title }}</h2></a
+      >
+      <p class="review__perex">{{ post.data.perex }}</p>
+      <a class="review__link" href="{{ post.url }}">---Přečíst</a>
+    </div>
   </div>
-  <div class="review__desc">
-    <p class="review__date">{{ page.date.toLocaleString(cs - CZ) }}</p>
-    <a href="{{ post.url }}"
-      ><h2 class="review__title">{{ post.data.title }}</h2></a
-    >
-    <p class="review__perex">{{ post.data.perex }}</p>
-    <a class="review__link" href="{{ post.url }}">---Přečíst</a>
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
 
 <div class="pagination">
   {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}"

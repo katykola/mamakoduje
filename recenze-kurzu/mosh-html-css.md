@@ -1,8 +1,8 @@
 ---
 layout: /layouts/post.njk
-title: The Ultimate HTML5&CSS3 Series
+title: "Recenze: The Ultimate HTML5&CSS3 Series"
 photo: moshhtmlcss.webp
-alt: Super pomocnici
+alt: "Recenze: The Ultimate HTML5&CSS3 Series"
 perex: Kurz od Moshe byl úplně prvním, který jsem absolovovala. Dle mého názoru poskytuje dobrou představu o tom, jak probíhá kódování s HTML a CSS.
 tags: ["reviews", "htmlcss"]
 ---
