@@ -7,7 +7,7 @@ layout: layouts/main.njk
     <article class="post">
       <h1 class="post__title">{{ title }}</h1>
       <p class="post__date">
-        {{ page.date.toLocaleString(cs - CZ) }}
+        {{ datum }}
       </p>
       <img class="post__photo" src="/images/{{ photo }}" alt="{{ alt }}" />
       {{ content | safe }}

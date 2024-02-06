@@ -333,6 +333,7 @@ a {
   font-family: "Inria Sans", sans-serif;
   color: #333333;
   margin: 0;
+  font-weight: 600;
 }
 
 h1 {
@@ -345,7 +346,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 @media screen and (min-width: 1150px) {
   h2 {
@@ -358,7 +359,7 @@ h3 {
 }
 @media screen and (min-width: 1150px) {
   h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -394,16 +395,16 @@ a {
 
 body {
   color: #333333;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2;
-  font-family: "Inria Serif", serif;
-  font-weight: 400;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
 @media screen and (min-width: 1150px) {
   body {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 .hero {
@@ -1343,7 +1344,7 @@ body {
   color: rgba(255, 255, 255, 0.544);
   font-size: 1.5rem;
   font-weight: 300;
-  font-family: "Inria Serif", serif;
+  font-family: "Inria Sans", sans-serif;
 }
 .footer__author:hover {
   color: #CF6773;

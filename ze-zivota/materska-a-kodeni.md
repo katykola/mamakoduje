@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: První rok na mateřské a kódění. Jak to šlo?
+datum: 20. 1. 2024
 photo: matka-u-notebooku.jpg
 alt: První rok
 perex: Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské.

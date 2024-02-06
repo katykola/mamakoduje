@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: Plán releasů. Moje vize na příštích 5 let.
+datum: 11. 12. 2023
 photo: lari-avilis-A2f6pwy2RnY-unsplash.jpg
 alt: Moje vize
 perex: Abych věděla, co dělat každý den a neztrácela se ve víru událostí, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.
@@ -38,7 +39,7 @@ Teď když to píšu, tak představa, že by se mohlo splnit, stále připadá n
 
 Naučit se **HTML a CSS** natolik, jak jen to bude možné a jak mi tehdy pro mě zcela nepředstavitelná péče o miminko dovolí.
 
-#### Update
+#### Co jsem naplnila
 
 Mám za sebou už docela obstojnou řádku kurzů. Naučila jsem se nejen HTML a CSS, ale taky něco ze **Sass, Github, Netlify, Eleventy a BEM**. Zrovna stojím na prahu spuštění meho projektu.
 
@@ -64,13 +65,13 @@ Co se týká samotného stěhování tam zatím úplně jasnou vizi nemám. Mám
 
 Zatím jsme vyzkoušeli nomádský život pouze na měsíc, a to na severu Německa v Lübecku a bylo to krásný. Sice mi v té době ještě bylo dost blbě kvůli těhotenským nevolnostem, ale i tak na to moc ráda vzpomínám. 
 
-#### Vize 2023
+### Vize 2023
 
 <div class="post__section">
 
 Najít si učitelku a konečně se posunout z pozice věčného začátečníka. Učit se německy udržitelně a mít cizí jazyk jako hobby ne povinnost, která mě stresuje.
 
-#### Update
+#### Co jsem naplnila
 
 Od srpna mám učitelku němčiny. Máme lekce jednou týdně, vždy v neděli v 8.30. Za ty 4 měsíce jsem se posunula na **úroveň A2 až B1**. Ale co je hlavní, začala jsem mluvit. Sice blbě, ale mluvím.
 
@@ -90,13 +91,13 @@ Protože ve zdravém těle je zdravý duch. Během těhotenství, kdy jsem nabra
 
 *Tímto rozhodně nechci nikoho nabádat k bodyshamingu. To, kolik někdo váží není ani můj, ani váš bysnys. Nikdy totiž nevíme, co se za kily nahoře skrývá. A i kdyby za tím nebylo nic a ten člověk se cítil tak jak je skvěle, i tak je nám po tom kulové.*
 
-<div class="post__section">
-
 ### Vize na 2023
+
+<div class="post__section">
 
 Už před porodem jsem se rozhodla, že takhle těžká být nechci a že na konci roku 2023 budu mít svoji předtěhotenskou váhu.
 
-#### Update
+#### Co jsem naplnila
 
 Momentálně mám cca 76 kg a víc nebo míň podle dne cyklu. A to je tadáááá zhruba stejně jako před otěhotněním. Nikdy bych nevěřila tomu, že se moje váha může během jednoho roku posunout **o 32kg**! WTF! A to jsem poslední 3 měsíce váhu neřešila a naopak 2 kila přibrala, jelikož to prostě momentálně není priorita a cíl pro tento rok je i tak splnila.
 

@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: "Recenze: The Ultimate HTML5&CSS3 Series"
+datum: 5. 6. 2023
 photo: moshhtmlcss.webp
 alt: "Recenze: The Ultimate HTML5&CSS3 Series"
 perex: Kurz od Moshe byl úplně prvním, který jsem absolovovala. Dle mého názoru poskytuje dobrou představu o tom, jak probíhá kódování s HTML a CSS.

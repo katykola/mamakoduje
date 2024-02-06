@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: Minimální instalační balíček pro miminko.
+datum: 9. 10. 2023
 photo: mimino-instalacni-balicek.jpg
 alt: Instalační balíček pro miminko
 perex: Na prvních pár měsíců miminku stačí pár věcí. Nabízím tedy můj instalační balíček, který je podle mě zcela dostačující.

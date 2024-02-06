@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: "Recenze: Responsive Web Design"
+datum: 23. 7. 2023
 photo: freecodecamp-web.png
 alt: Super pomocnici
 perex: Celý kurz je pouze psaný, ale to mu nijak neubírá na pochopitelnosti a užitečnosti. Co je na něm skvělé je to, kolik toho v jeho průběhu nakódujete.
@@ -9,7 +10,7 @@ tags: ["reviews", "htmlcss"]
 
 FreecodeCodeCamp je skvělá platforma, která poskytuje bezplatné vzdělávání pro lidi začínající s programováním. Tato veskrze sympatická věc má také Youtube kanál, který určitě stojí za to prozkoumat.
 
-Samotný kurz Responsive Web Design ovšem žádné videa nevyužívá. Celý kurz je pouze psaný, ale to mu nijak neubírá na pochopitelnosti a užitečnosti. Co je na něm skvělé je to, kolik toho v jeho průběhu nakódujete.
+Samotný kurz Responsive Web Design ovšem žádné videa nevyužívá. **Celý kurz je pouze psaný**, ale to mu nijak neubírá na pochopitelnosti a užitečnosti. Co je na něm skvělé je to, kolik toho v jeho průběhu nakódujete.
 
 ## Jak kurz funguje
 
@@ -27,20 +28,25 @@ Samotné kódování probíhá tak, že v jednom z oken vidíte zadání a kódu
 
 Jak jsem psala každý projekt je rozsekaný do mini kroků, které jasně a stručně vysvětlují, jaké dané prvky fungují. Po vysvětlení si vše rovnou vyzkoušíte.
 
-1. modul
-   Obsahuje základní HTML elementy a CSS selektory. Naučíte se, jak elementům v CSS přiřadit barvy pomocí CSS a jak vytvořit formulář. Závěrečným projektem je dotazník.
+### 1. modul
 
-2. modul
-   Zde se dozvíte o tom, co je to Box Model, vyzkoušíte si Flexbox a pracovat s typografií a accessibility na webu. Na závěr vás čeká vytvoření prvního jednoduchého webíku.
+Obsahuje základní HTML elementy a CSS selektory. Naučíte se, jak elementům v CSS přiřadit barvy pomocí CSS a jak vytvořit formulář. Závěrečným projektem je dotazník.
 
-3. modul
-   Mluví více o od hloubky o selektorech v CSS, představí třeba pseudoselektory, pozicování prvků nebo transform vlastnost. Přidá také informace o responsivitě webu. Na závěr si vytvoříte stránku s technickou dokumentací.
+### 2. modul
 
-4. modul
-   Zde se naučíte, jak v CSS vytvářet proměnné a taky, jak používat Grid. Vše si znova vyzkoušíte na projektu produktové stránky.
+Zde se dozvíte o tom, co je to Box Model, vyzkoušíte si Flexbox a pracovat s typografií a accessibility na webu. Na závěr vás čeká vytvoření prvního jednoduchého webíku.
 
-5. modul
-   Je o animacích a trannsformacích. Závěrečným projektem je stránka s osobním portfoliem.
+### 3. modul
+
+Mluví více o od hloubky o selektorech v CSS, představí třeba pseudoselektory, pozicování prvků nebo transform vlastnost. Přidá také informace o responsivitě webu. Na závěr si vytvoříte stránku s technickou dokumentací.
+
+### 4. modul
+
+Zde se naučíte, jak v CSS vytvářet proměnné a taky, jak používat Grid. Vše si znova vyzkoušíte na projektu produktové stránky.
+
+### 5. modul
+
+Je o animacích a trannsformacích. Závěrečným projektem je stránka s osobním portfoliem.
 
 ## Závěrečné myšlenky
 
