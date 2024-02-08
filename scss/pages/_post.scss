@@ -38,6 +38,12 @@
     &__link{
         color: var.$color-accent;
     }
+
+    &__table{
+        width: 100%;
+        overflow: scroll;
+        display: block;    
+    }
     
     &__table,
     &__tablehead,

@@ -30,7 +30,7 @@ Ve své bývalé profesi jsem zažívala **jedno vyhoření za druhým.** Tehdy 
 
 Udržet se v daném povolání mě stálo neskutečné úsilí a flow se dostavovala opravdu málo kdy. Vyhledala jsem tehdy pomoc kariérního poradce a psychologa v jednom s otázkou, co mám se sebou proboha dělat a kam se vrtnout. Během jednoho jediného hovoru jsem měla v tomto směru jasno. Chci dělat weby. Od té doby můj muž poslouchá neustále dokola, že budu kodérek, jak téhle pozici poněkud familiérně říkám.
 
-Teď když to píšu, tak představa, že by se mohlo splnit, stále připadá naprosto šílená a nerealistická. Můj první web je ještě před spuštěním. V tento moment jsem ještě nevypustila jediný vlastní projekt. Uf.
+Teď když to píšu, tak představa, že by se to mohlo splnit, mi stále připadá naprosto šílená a nerealistická. V momentu, kdy tenhle článek píšu, je tenhle web teprve před spuštěním. 
 
 
 ### Vize na rok 2023

@@ -23,7 +23,7 @@ Po přednášce přichází hodina koučování v malém počtu účastnic. Já 
 
 ## Garant kurzu a styl vyučování
 
-Garantem, v Czechitas tuto roli nazývají hlavním lektorem, byl v mém případě Luboš Roleček. Já osobně jsem s jeho stylem vyučování byla velmi spokojená. Luboš má tendenci vysvětlovat věci více do šířky a jeho lekce tak mají docela dlouhou stopáž. Mě osobně tento styl vyhovuje, jelikož jsem učební typ, který nejdřív potřebuje vše pochopit a až pak jde na věc. (Ne dycky to jde samozřejmě, zase nejsem blázen :D).
+Garantem, v Czechitas tuto roli nazývají hlavním lektorem, byl v mém případě Luděk Roleček. Já osobně jsem s jeho stylem vyučování byla velmi spokojená. Luděk má tendenci vysvětlovat věci více do šířky a jeho lekce tak mají docela dlouhou stopáž. Mě osobně tento styl vyhovuje, jelikož jsem učební typ, který nejdřív potřebuje vše pochopit a až pak jde na věc. (Ne dycky to jde samozřejmě, zase nejsem blázen :D).
 
 Týdně jsme od Czechitas dostali zhruba 5 a více hodin výukových videí. K tomu navíc domácí úkol. Některé úkoly byly pro splnění kurzu a obdržení certifikátu povinné.
 
@@ -61,7 +61,7 @@ Kodérku nemůžu hodnotit jinak než pozitivně. I když byly momenty, kde jsem
 
 Kurz je skvěle postavený a na závěr z něj vyjdete jako člověk, který dokáže postavit fungující web. Sice jednoduchý, ale funkční.
 
-Zvláště dobře z něj vychází hlavní lektor Luboš Roleček, jehož výklad je skvěle srozumitelný a jasně podaný. Navíc je pro mě jakožto českého rodilého mluvčího skvělé slyšet vysvětlení některých pojmů znova i v rodném jazyce. To stejně platí i pro učení se novým věcem.
+Zvláště dobře z něj vychází hlavní lektor Luděk Roleček, jehož výklad je skvěle srozumitelný a jasně podaný. Navíc je pro mě jakožto českého rodilého mluvčího skvělé slyšet vysvětlení některých pojmů znova i v rodném jazyce. To stejně platí i pro učení se novým věcem.
 
 <div class="rating">
 <div class="rating__sections">
@@ -77,7 +77,7 @@ Zvláště dobře z něj vychází hlavní lektor Luboš Roleček, jehož výkla
         <h3 class="rating__title">Mínusy</h3>
         <ul class="rating__list">
             <li class="rating__text">Málo času na vytvoření závěrečného projektu</li>
-            <li class="rating__text">Ne každý se ho může finančně dovolit</li>
+            <li class="rating__text">Ne každý si ho může finančně dovolit</li>
         </ul>
     </div>
 </div>

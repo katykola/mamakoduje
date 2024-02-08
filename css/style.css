@@ -346,29 +346,29 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 @media screen and (min-width: 1150px) {
   h2 {
-    font-size: 3rem;
+    font-size: 3.3rem;
   }
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.7rem;
 }
 @media screen and (min-width: 1150px) {
   h3 {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 }
 
 h4 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 @media screen and (min-width: 1150px) {
   h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -847,6 +847,11 @@ body {
 }
 .post__link {
   color: #CF6773;
+}
+.post__table {
+  width: 100%;
+  overflow: scroll;
+  display: block;
 }
 .post__table, .post__tablehead, .post__tabledata {
   border: 1px solid #CF6773;
