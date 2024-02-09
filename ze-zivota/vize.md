@@ -2,8 +2,8 @@
 layout: /layouts/post.njk
 title: Plán releasů. Moje vize na příštích 5 let.
 datum: 11. 12. 2023
-photo: lari-avilis-A2f6pwy2RnY-unsplash.jpg
-alt: Moje vize
+photo: chuvicka-a-notebook700.jpg
+alt: Moje vize na příštích 5 let
 perex: Abych věděla, co dělat každý den a neztrácela se ve víru událostí, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.
 tags: ["posts", "personal"]
 ---
@@ -30,8 +30,7 @@ Ve své bývalé profesi jsem zažívala **jedno vyhoření za druhým.** Tehdy 
 
 Udržet se v daném povolání mě stálo neskutečné úsilí a flow se dostavovala opravdu málo kdy. Vyhledala jsem tehdy pomoc kariérního poradce a psychologa v jednom s otázkou, co mám se sebou proboha dělat a kam se vrtnout. Během jednoho jediného hovoru jsem měla v tomto směru jasno. Chci dělat weby. Od té doby můj muž poslouchá neustále dokola, že budu kodérek, jak téhle pozici poněkud familiérně říkám.
 
-Teď když to píšu, tak představa, že by se to mohlo splnit, mi stále připadá naprosto šílená a nerealistická. V momentu, kdy tenhle článek píšu, je tenhle web teprve před spuštěním. 
-
+Teď když to píšu, tak představa, že by se to mohlo splnit, mi stále připadá naprosto šílená a nerealistická. V momentu, kdy tenhle článek píšu, je tenhle web teprve před spuštěním.
 
 ### Vize na rok 2023
 
@@ -63,7 +62,7 @@ Součástí téhle vize je **naučit se německy**. Vlastně si nejsem 100% jís
 
 Co se týká samotného stěhování tam zatím úplně jasnou vizi nemám. Máme dům, takže jsme přece jen vázaní na Česko. S podnájmem by to bylo jednodušší. V prvé řadě je pro mě důležité zajistit si příjem a nějakou expertízu v IT. Poté začnu přemýšlet jak to udělat vycestováním.
 
-Zatím jsme vyzkoušeli nomádský život pouze na měsíc, a to na severu Německa v Lübecku a bylo to krásný. Sice mi v té době ještě bylo dost blbě kvůli těhotenským nevolnostem, ale i tak na to moc ráda vzpomínám. 
+Zatím jsme vyzkoušeli nomádský život pouze na měsíc, a to na severu Německa v Lübecku a bylo to krásný. Sice mi v té době ještě bylo dost blbě kvůli těhotenským nevolnostem, ale i tak na to moc ráda vzpomínám.
 
 ### Vize 2023
 
@@ -89,7 +88,7 @@ Na konci roku 2024 chci být schopná jakž takž plynulé konverzace s německ�
 
 Protože ve zdravém těle je zdravý duch. Během těhotenství, kdy jsem nabrala **na krásných 108 kilo**, jsem zjistila, jaké to je mít tělo, které funguje jako kotva, co mě tahá ke dnu. Doslova. I blbá procházka pár metrů do zásilkovny byla boj a já měla pocit, že se nohama propadám to chodníku jako do tekutého písku. Další chuťovky, které asi každá matka pozná, jako bolest zad, nespavost, a tak nějak celkovou nekodnici, nebudu zmiňovat.
 
-*Tímto rozhodně nechci nikoho nabádat k bodyshamingu. To, kolik někdo váží není ani můj, ani váš bysnys. Nikdy totiž nevíme, co se za kily nahoře skrývá. A i kdyby za tím nebylo nic a ten člověk se cítil tak jak je skvěle, i tak je nám po tom kulové.*
+_Tímto rozhodně nechci nikoho nabádat k bodyshamingu. To, kolik někdo váží není ani můj, ani váš bysnys. Nikdy totiž nevíme, co se za kily nahoře skrývá. A i kdyby za tím nebylo nic a ten člověk se cítil tak jak je skvěle, i tak je nám po tom kulové._
 
 ### Vize na 2023
 

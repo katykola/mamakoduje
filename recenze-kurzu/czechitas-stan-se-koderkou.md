@@ -2,7 +2,7 @@
 layout: /layouts/post.njk
 title: "Recenze kurzu: Staň se kodérkou"
 datum: 14. 1. 2024
-photo: czechitas-koderka1.png
+photo: czechitas-koderka.png
 alt: Recenze kurzu Staň se kodérkou od Czechitas
 perex: Kurzy Czechitas jsou mezi ženami velmi oblíbené, takže věřím, že tato recenze pro vás bude užitečná.
 tags: ["reviews", "htmlcss"]

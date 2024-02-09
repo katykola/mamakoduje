@@ -33,10 +33,6 @@
         height: 100%;
         object-fit: cover;
         border-radius: 5px 5px 0 0;
-        @include pc{
-            border-radius: 5px 0 0 5px;
-        }
-    }
 
     &__desc{
         padding: 2rem;
