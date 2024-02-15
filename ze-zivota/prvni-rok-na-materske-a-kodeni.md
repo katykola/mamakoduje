@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
 title: První rok na mateřské a kódění. Jak to šlo?
+permalink: "{{ title | slugify }}/"
 datum: 20. 1. 2024
 photo: batole-a-satek700.jpg
 alt: První rok s dítětem

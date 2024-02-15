@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
-title: Minimální instalační balíček pro miminko.
+title: Minimální instalační balíček pro miminko
+permalink: "{{ title | slugify }}/"
 datum: 9. 10. 2023
 photo: dite-a-ponozky700.jpg
 alt: Instalační balíček pro miminko

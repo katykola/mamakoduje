@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
-title: Plán releasů. Moje vize na příštích 5 let.
+title: Plán releasů. Moje vize na příštích 5 let
+permalink: "{{ title | slugify }}/"
 datum: 11. 12. 2023
 photo: chuvicka-a-notebook700.jpg
 alt: Moje vize na příštích 5 let

@@ -698,11 +698,6 @@ body {
      object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
-@media screen and (min-width: 1150px) {
-  .review__photo {
-    border-radius: 5px 0 0 5px;
-  }
-}
 .review__desc {
   padding: 2rem;
 }

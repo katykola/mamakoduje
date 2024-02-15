@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
-title: "Recenze: Responsive Web Design"
+title: "Recenze kurzu: Responsive Web Design od freeCodeCamp"
+permalink: "{{ title | slugify }}/"
 datum: 23. 7. 2023
 photo: freecodecamp-web.png
 alt: Super pomocnici

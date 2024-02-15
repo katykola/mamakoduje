@@ -1,6 +1,7 @@
 ---
 layout: /layouts/post.njk
-title: "Recenze kurzu: Staň se kodérkou"
+title: "Recenze kurzu: Staň se kodérkou od Czechitas"
+permalink: "{{ title | slugify }}/"
 datum: 14. 1. 2024
 photo: czechitas-koderka.png
 alt: Recenze kurzu Staň se kodérkou od Czechitas
