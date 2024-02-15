@@ -13,11 +13,6 @@ module.exports = function(eleventyConfig) {
       return arr.slice(0, limit);
     });
     
-  // Custom filter to generate URL from title
-      eleventyConfig.addFilter("titleToUrl", function(title) {
-      return title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    });
-    
     return {
         // možné formáty šablon
         templateFormats: ["njk", "html", "md", "liquid"],

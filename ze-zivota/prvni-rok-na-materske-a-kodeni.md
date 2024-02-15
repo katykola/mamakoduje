@@ -6,7 +6,7 @@ datum: 20. 1. 2024
 photo: batole-a-satek700.jpg
 alt: První rok s dítětem
 perex: Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské.
-tags: ["posts", "personal"]
+tags: ["posts", "osobni"]
 ---
 
 Malá Ema má za chvíli jeden rok a tak je třeba trochu bilancovat a položit si otázku, jaký byl můj první rok na mateřské. Doufám, že moje shrnutí třeba někomu pomůže si udělat **představu, jaké to asi bude a stanovit si alespoň trochu reálné cíle.**

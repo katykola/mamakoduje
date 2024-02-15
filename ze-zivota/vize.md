@@ -6,7 +6,7 @@ datum: 11. 12. 2023
 photo: chuvicka-a-notebook700.jpg
 alt: Moje vize na příštích 5 let
 perex: Abych věděla, co dělat každý den a neztrácela se ve víru událostí, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.
-tags: ["posts", "personal"]
+tags: ["posts", "osobni"]
 ---
 
 Abych věděla, co dělat každý den a neztrácela se ve víru událostí, rozhodla jsem se vytvořit si vizi toho, kde bych chtěla být za 5 let.

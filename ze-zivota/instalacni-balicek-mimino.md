@@ -6,7 +6,7 @@ datum: 9. 10. 2023
 photo: dite-a-ponozky700.jpg
 alt: Instalační balíček pro miminko
 perex: Na prvních pár měsíců miminku stačí pár věcí. Nabízím tedy můj instalační balíček, který je podle mě zcela dostačující.
-tags: ["posts", "personal"]
+tags: ["posts", "osobni"]
 ---
 
 V těhotenství mě velmi překvapilo, jak moc konzumní oblast pro mnohé lidi mateřství je.
@@ -100,11 +100,11 @@ No a samozřejmě se taky bude hodit **vanička**. My máme půjčenou od kamar�
 
 Jak jsem psala první měsíce jsou ve znamení neustálého lítání po doktorech. Jsou tam konkrolní prohlídky u pediatra, očkování, ortoped a v našem případě i fyzioterapeut pro mě i malou. Tedy bude potřeba miminko přenášet a vozit.
 
-### Kočárek a autosedačka. 
+### Kočárek a autosedačka.
 
 Zde neporadím. Opět jsme podědili. Pokud by tak nebylo, volila bych já osobně kočárek z druhé ruky. **My jsme v prvním roce využívali v podstatě jen vajíčko a kolečka.** Hlubokou korbu jen občas. Korba se mi totiž nevešla do auta, tudíž jsem na kolečka připevnila jen vajíčko. Což mě vede k tomu, že bych určitě brala autosedačku alias vajíčko, které je možné na ty kolečka dát.
 
-### Nosítko 
+### Nosítko
 
 To naše malá nejdřív totálně bojkotovala. Hlavně tedy u mě. Postupně se z něj však stal totální life saver a pomalu **nejdůležitější věc v domácnosti**. Uspáváme výhradně nošením. Koupila jsem si i šátek, ale nosítko je mnohem rychlejší na nandání a podle mě značně praktičtější. Šátek už vůbec nepoužívám.
 
