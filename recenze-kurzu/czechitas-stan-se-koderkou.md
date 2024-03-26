@@ -12,7 +12,8 @@ tags: ["reviews", "htmlcss"]
 Kurzy Czechitas jsou mezi ženami velmi oblíbené, takže věřím, že tato recenze bude pro vás užitečná.
 
 Sama jsem se na kurz velmi těšila a nemohla se dočkat, až začne. Na rodičovské je často jeden den jako druhý a tak jsou pro mě začátky velkých kurzů vítanou změnou a vyhozením z rutiny.
-Jak kurz probíhal
+
+## Jak kurz probíhal
 
 Kostrou celého kurzu jsou materiály, ke kterým dostanete přístup na Google Drive. Po začátku kurzu se na Drivu objeví organizační informace, kde se dozvíte, kdy budou jednotlivé moduly zveřejněny a co se v nich zhruba naučíte.
 
@@ -63,6 +64,8 @@ Kodérku nemůžu hodnotit jinak než pozitivně. I když byly momenty, kde jsem
 Kurz je skvěle postavený a na závěr z něj vyjdete jako člověk, který dokáže postavit fungující web. Sice jednoduchý, ale funkční.
 
 Zvláště dobře z něj vychází hlavní lektor Luděk Roleček, jehož výklad je skvěle srozumitelný a jasně podaný. Navíc je pro mě jakožto českého rodilého mluvčího skvělé slyšet vysvětlení některých pojmů znova i v rodném jazyce. To stejně platí i pro učení se novým věcem.
+
+Z čeho bohužel Luděk nevychází vůbec dobře, je jeho vlastní kurz, na který si v rámci přednášek Czechitas dělá reklamu. Já osobně se nechala nalákat a hořce toho litovala. A nejen já. Kurz se jmenuje Javascript 101. Pravděpodobně na něj nikde nenajdete zmínku. Nemá vlastní webovou prezentaci. Vzhledem k tomu, že tento kurz mám za sebou, pokud se to tak dá řici, můžete se těšit na jeho recenzi.
 
 <div class="rating">
 <div class="rating__sections">
