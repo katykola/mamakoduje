@@ -3,7 +3,7 @@ layout: /layouts/post.njk
 title: "Recenze kurzu: JavaScript 101 od Luďka Rolečka"
 permalink: "{{ title | slugify }}/"
 datum: 5. 4. 2024
-photo: javascript101.png
+photo: javascript101.jpg
 alt: Recenze kurzu JavaScript 101 od Luďka Rolečka
 perex: Nerada píšu takto veřejně negativní recenze, ale pokud chci být opravdu nestranná a podávat vám reálné informace, nemohu jinak.
 tags: ["reviews", "javascript"]
@@ -47,7 +47,7 @@ Samozřejmě mne zajímalo, co se bude dít s dalším průběhem kurzu. Účast
 
 Bohužel se nic podobného nestalo. Jediné co následovalo byla další salva omluv, které nabíraly čím dál více bizardní charakter. Nejdříve se jednalo o to, že Luďkovi odešel notebook, na kterém měl data ke kurzu, pak odjel na dovolenou, kde nebyl internet, následoval zpožděný vlak, díky kterému nemohl stihnout přednášku.
 
-Účastnice kurzu se nakonec dopálily taky a ve společném dopisu Luďka při nesplnění podmínek požádaly o vrácení peněz. Dnes je to 3 týdny a ke vrácení peněz nedošlo. Stejně tak k doplnění učebních materiálů, které momentálně meškají o 2 měsíce. 
+Účastnice kurzu se nakonec dopálily taky a ve společném dopisu Luďka při nesplnění podmínek požádaly o vrácení peněz. Dnes je to 3 týdny a ke vrácení peněz nedošlo. Stejně tak k doplnění učebních materiálů, které momentálně meškají o 2 měsíce.
 
 Co je zarážející je to, že kurz i přesto, že prvnímu (asi) běhu nebyly vráceny peníze, tak byl Luďkem spuštěn znova. Důvody neznám a nechápu.
 
